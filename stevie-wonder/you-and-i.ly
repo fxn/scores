@@ -17,6 +17,4 @@ melody = \relative c'' {
 
 \score {
   \new Staff \melody
-  \layout { }
-  \midi { }
 }
