@@ -11,8 +11,9 @@ melody = \relative c'' {
   \key f \major
   \time 4/4
 
-  a4. c,8 d2 ~ |
-  d8 des f c' bes f ~ \times 2/3 { f g a }
+  r8 a8 ~ \times 2/3 { a c, d ~ } d2 ~ |
+  d8 des16 f ~ f8 c' bes f ~ \times 2/3 { f g a ~ } |
+  a4 ~ a8. c,16 d2 ~ |
 }
 
 \score {
