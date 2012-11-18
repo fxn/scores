@@ -12,7 +12,7 @@ melody = \relative c'' {
   \time 4/4
 
   a4. c,8 d2 ~ |
-  d8 des8 f8 c'8 bes f8 ~ \times 2/3 { f8 g a }
+  d8 des f c' bes f ~ \times 2/3 { f g a }
 }
 
 \score {
