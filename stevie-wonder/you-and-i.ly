@@ -2,7 +2,7 @@
 
 \header {
   title    = "You And I"
-  subtitle = "(Approximate transcribed melody, improvise ornaments)"
+  subtitle = "(Approximate transcribed melody)"
   composer = "Stevie Wonder"
 }
 
