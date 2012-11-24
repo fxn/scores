@@ -4,7 +4,7 @@
 
 \header {
   title    = "You And I"
-  subtitle = "(Approximate transcription by Xavier Noria)"
+  tagline  = "(Approximate transcription by Xavier Noria)"
   composer = "Stevie Wonder"
 }
 
