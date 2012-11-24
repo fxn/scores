@@ -2,7 +2,7 @@
 
 \header {
   title    = "You And I"
-  subtitle = "(Basic melody, improvise adornments)"
+  subtitle = "(Approximate transcribed melody, improvise ornaments)"
   composer = "Stevie Wonder"
 }
 
@@ -14,6 +14,7 @@ melody = \relative c'' {
 
   \compressFullBarRests
   \override MultiMeasureRest #'expand-limit = #5
+  \override Glissando #'style = #'zigzag
 
   % --- Introduction -----------------------------------------------------------
 
@@ -24,7 +25,7 @@ melody = \relative c'' {
   % --- First Verse ------------------------------------------------------------
 
   % 7 ~ 0:24
-  r8 ais ~ \times 2/3 { ais cis,  dis ~ } dis2 ~ |
+  r8^"First Verse" ais ~ ais cis,16  dis16 ~ dis2 ~ |
 
   % 8 ~ 0:28
   dis8 d16 fis ~ fis8 cis' b fis ~ \times 2/3 { fis gis ais ~ } |
@@ -33,7 +34,7 @@ melody = \relative c'' {
   ais4 ~ ais8 cis,8 dis2 ~ |
 
   % 10 ~ 0:35
-  r4 d16 cis' b8 ~ fis4 ~ fis8 gis16 ais ~ |
+  r4 \times 2/3 { d8 cis' b( } fis4) ~ fis8 gis16 ais ~ |
 
   % 11 ~ 0:39
   ais4 ~ \times 2/3 { ais8 dis, fis ~ } fis4 ~ fis8 gis16 ais ~ |
@@ -53,34 +54,56 @@ melody = \relative c'' {
 
   % --- Second Verse -----------------------------------------------------------
 
-
   % 16 ~ 0:59
-  r8 ais8 ~ \times 2/3 { ais cis,  dis ~ } dis2 ~ |
+  r8^"Second Verse" ais8 ~ ais[ cis,] dis2 ~ |
 
   % 17 ~ 1:03
-  dis8 d16 fis ~ fis8 cis' b fis fis4 |
+  dis8 d16 fis ~ fis8 cis' b8. fis16 fis4 |
 
   % 18 ~ 1:06
-  r8 ais ~ ais4 \times 2/3 { r8 cis, dis8 ~ } dis4 ~ |
+  r8 ais ~ ais4 r8 cis,16 dis ~ dis4 ~ |
 
   % 19 ~ 1:10
   r8. d16 fis cis' b8 ~ b8 fis ~ fis8 gis16 ais ~ |
 
   % 20 ~ 1:14
-  ais4 ~ \times 2/3 { ais8 dis, fis ~ } fis4 ~ fis8 gis16 ais ~ |
+  ais4 ~ ais8 dis,16 fis ~ fis4 ~ fis8 gis16 ais ~ |
 
   % 21 ~ 1:18
   ais2 r4. dis,16 ais' ~ |
 
   % 22 ~ 1:22
-  ais4 ais8 gis ~ gis4 ~ gis8. fis16  |
+  gis8( ais8) ais gis ~ gis4 ~ gis8. fis16  |
 
   % 23 ~ 1:26
   gis1 |
 
   % 24 ~ 1:30
-  r1 |
+  r2 r4. gis16 fis |
 
+
+  % --- Chrorus ----------------------------------------------------------------
+
+  % 25 ~ 1:33
+  gis8(^"Chorus" fis8 gis8) gis ~ gis2 |
+
+  % 26 ~ 1:37
+  r4. fis16 gis ais8 gis8 ~ gis8. fis16 |
+
+  % 27 ~ 1:41
+  cis1 |
+
+  % 28 ~ 1:45
+  r2 dis8 cis ~ cis8 cis16 dis |
+
+  % 29 ~ 1:49
+  gis2 ~ gis4 ~ gis8 fis16 gis16 |
+
+  % 30 ~ 1:53
+  ais2 \glissando cis,4 ~ cis8 ais'16 gis16 |
+
+  % 31 ~ 1:57
+  fis1 |
 }
 
 \score {
