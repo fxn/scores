@@ -9,3 +9,5 @@ Links of interest:
 * [LilyPond documentation](http://lilypond.org/manuals.html)
 
 * [List of musical symbols](http://en.wikipedia.org/wiki/List_of_musical_symbols)
+
+* [Music theory for musicians and normal people](http://academic.udayton.edu/tobyrush/theorypages/)
