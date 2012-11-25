@@ -18,6 +18,7 @@ melody = \relative c'' {
   \override MultiMeasureRest #'expand-limit = #2
   \override Glissando #'style = #'zigzag
 
+
   % --- Introduction -----------------------------------------------------------
 
   % 1 ~ 0:00
@@ -106,6 +107,7 @@ melody = \relative c'' {
 
   % 31 ~ 1:57
   fs1 |
+
 
   % --- Bridge -----------------------------------------------------------------
 
