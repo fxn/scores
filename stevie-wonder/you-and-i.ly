@@ -140,6 +140,37 @@ melody = \relative c'' {
   gs1 |
 
   % 43 ~ 2:43
+  r2. r8. cs,16 |
+
+
+  % --- Fourth Verse -----------------------------------------------------------
+
+  % 44 ~ 2:47
+  as'4^"Fourth Verse (2:47)" ~ as8.[ cs,16] ds2 ~ |
+
+  % 45 ~ 2:51
+  r8 d16[ fs] ~ fs8 cs'16 b ~ b8 fs ~ fs gs16 as ~ |
+
+  % 46 ~ 2:55
+
+  as4 ~ as8. cs,16 ds2 |
+
+  % 47 ~ 2:59
+  r8 d16[ fs] ~ fs8 cs' b8. fs16 fs gs as8 ~ |
+
+  % 48 ~ 3:02
+  as4 ds,8 fs ~ fs4 ~ fs8. gs16 |
+
+  % 49 ~ 3:06
+  as2. ~ as8. as16 |
+
+  % 50 ~ 3:10
+  as8 as as gs ~ gs4 fs8 gs ~ |
+
+  % 51 ~ 3:14
+  gs1 |
+
+  % 52 ~ 3:18
   r1 |
 }
 
