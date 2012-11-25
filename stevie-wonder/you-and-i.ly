@@ -160,10 +160,10 @@ melody = \relative c'' {
   r8 d16[ fs] ~ fs8 cs' b8. fs16 fs gs as8 ~ |
 
   % 48 ~ 3:02
-  as4 ds,8 fs ~ fs4 ~ fs8. gs16 |
+  as4 ~ as8 ds,16 fs ~ fs4 ~ fs8. gs16 |
 
   % 49 ~ 3:06
-  as2. ~ as8. as16 |
+  as2 r4 r8. as16 |
 
   % 50 ~ 3:10
   as8 as as gs ~ gs4 fs8 gs ~ |
