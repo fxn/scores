@@ -15,7 +15,7 @@ melody = \relative c'' {
   \tempo 4 = 62
 
   \compressFullBarRests
-  \override MultiMeasureRest #'expand-limit = #5
+  \override MultiMeasureRest #'expand-limit = #2
   \override Glissando #'style = #'zigzag
 
   % --- Introduction -----------------------------------------------------------
@@ -27,7 +27,7 @@ melody = \relative c'' {
   % --- First Verse ------------------------------------------------------------
 
   % 7 ~ 0:24
-  r8^"First Verse" as ~ as cs,16  ds16 ~ ds2 ~ |
+  r8^"First Verse (0:24)" as ~ as cs,16  ds16 ~ ds2 ~ |
 
   % 8 ~ 0:28
   ds8 d16 fs ~ fs8 cs' b fs ~ \times 2/3 { fs gs as ~ } |
@@ -57,7 +57,7 @@ melody = \relative c'' {
   % --- Second Verse -----------------------------------------------------------
 
   % 16 ~ 0:59
-  r8^"Second Verse" as8 ~ as[ cs,] ds2 ~ |
+  r8^"Second Verse (0:59)" as8 ~ as[ cs,] ds2 ~ |
 
   % 17 ~ 1:03
   ds8 d16 fs ~ fs8 cs' b8. fs16 fs4 |
@@ -87,7 +87,7 @@ melody = \relative c'' {
   % --- Chrorus ----------------------------------------------------------------
 
   % 25 ~ 1:33
-  gs8(^"Chorus" fs8 gs8) gs ~ gs2 |
+  gs8(^"Chorus (1:33)" fs8 gs8) gs ~ gs2 |
 
   % 26 ~ 1:37
   r4. fs16 gs as8 gs8 ~ gs8. fs16 |
@@ -106,6 +106,41 @@ melody = \relative c'' {
 
   % 31 ~ 1:57
   fs1 |
+
+  % --- Bridge -----------------------------------------------------------------
+
+  % 32 ~ 2:00
+  R1*3
+
+
+  % --- Third Verse ------------------------------------------------------------
+
+  % 35 ~ 2:12
+  r8^"Third Verse (2:12)" as ~ as[ cs,] ds2 ~ |
+
+  % 36 ~ 2:16
+  ds8 d16 fs ~ fs8 cs' b fs ~ \times 2/3 { fs gs as ~ } |
+
+  % 37 ~ 2:20
+  as4 ~ as8 ds,8 ds2 ~ |
+
+  % 38 ~ 2:24
+  r8. d16 fs cs' b8 fs4 ~ fs8 gs16 as ~ |
+
+  % 39 ~ 2:28
+  as4 as16 ds,16 fs8 ~ fs4 ~ fs8 gs16 as ~ |
+
+  % 40 ~ 2:3
+  as2 r4. ds,16 as' ~ |
+
+  % 41 ~ 2:35
+  as4 ~ as8 as gs4 ~ gs8. fs16 |
+
+  % 42 ~ 2:39
+  gs1 |
+
+  % 43 ~ 2:43
+  r1 |
 }
 
 \score {
