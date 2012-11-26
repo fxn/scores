@@ -97,7 +97,7 @@ melody = \relative c'' {
   cs1 |
 
   % 28 ~ 1:45
-  r2 ds8 cs ~ cs8 cs16 ds |
+  r2 ds8 cs ~ cs cs16 ds |
 
   % 29 ~ 1:49
   gs2 ~ gs4 ~ gs8 fs16 gs16 |
@@ -172,7 +172,66 @@ melody = \relative c'' {
   gs1 |
 
   % 52 ~ 3:18
-  r1 |
+  r2 r4. gs16 fs |
+
+
+  % --- Chorus -----------------------------------------------------------------
+
+  % 53 ~ 3:22
+  fs4^"Chorus (3:22)" ~ \times 2/3 { fs8 gs gs ~ } gs2 |
+
+  % 54 ~ 3:26
+  r4. fs16[ gs] as gs8. gs4 |
+
+  % 55 ~ 3:30
+  cs,1 |
+
+  % 56 ~ 3:33
+  r4. ds8 cs4 ~ cs8 cs16 ds |
+
+  % 57 ~ 3:37
+  gs2. ~ gs8 fs16 gs |
+
+  % 58 ~ 3:41
+  as2. ~ as8 as16 b |
+
+  % 59 ~ 3:45
+  cs2. ~ cs8 cs16 ds |
+
+  % 60 ~ 3:49
+  e4 ~ e8 fs8 ~ fs2 |
+
+  % 61 ~ 3:53
+  r8 fs ~ \times 2/3 { fs gs gs ~ } gs2 |
+
+  % 62 ~ 3:57
+  r4 r8 fs16 gs as gs fs8 ~ fs8. cs16 |
+
+  % 63 ~ 4:00
+  cs1 |
+
+  % 65 ~ 4:04
+  r4. ds8 cs4 ~ cs8 cs16 ds |
+
+  % 66 ~ 4:08
+  gs2. ~ gs8 fs16 gs |
+
+  % 67 ~ 4:12
+  as4 \glissando cs,2 ~ cs8 as'16 as |
+
+  % 68 ~ 4:16
+  gs8 fs ~ fs2. ~ |
+
+  % 69 ~ 4:20
+  fs1 |
+
+  % 70 ~ 4:24
+  fs4 \glissando fs,2 ~ fs8 as16 cs |
+
+  % 71 ~ 4:28
+  as1 |
+
+  r1 \bar "||"
 }
 
 \score {
