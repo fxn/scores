@@ -205,7 +205,7 @@ melody = \relative c'' {
   r8 fs ~ \times 2/3 { fs gs gs ~ } gs2 |
 
   % 62 ~ 3:57
-  r4 r8 fs16 gs as gs fs8 ~ fs8. cs16 |
+  r4 r8 fs16 gs as gs( fs8) ~ fs8. cs16 |
 
   % 63 ~ 4:00
   cs1 |
@@ -220,7 +220,7 @@ melody = \relative c'' {
   as4 \glissando cs,2 ~ cs8 as'16 as |
 
   % 68 ~ 4:16
-  gs8 fs ~ fs2. ~ |
+  gs8( fs) ~ fs2. ~ |
 
   % 69 ~ 4:20
   fs1 |
@@ -233,6 +233,34 @@ melody = \relative c'' {
 
   % 72 ~ 4:32
   r1 \bar "||"
+}
+
+\addlyrics {
+  Here we are on Earth to -- ge -- ther,
+  It's you and I,
+  God has made us fall in love, it's true,
+  I've rea -- lly found some -- one like you.
+
+  Will it stay the love you feel for me, will it say,
+  That you will be by my side
+  To see me through,
+  Un -- til my life is through.
+
+  Well, in my mind, we can con -- quer the world,
+  In love you and I, you and I, _ you and I.
+
+  I am glad at least in my life I found some -- one
+  That may not be here fo -- re -- ver to see me through,
+  But I found strength in you.
+
+  I on -- ly pray that I have shown you a brigh -- ter day,
+  Be -- cause that's all that I am li -- ving for, you see,
+  Don't worry what hap -- pens to me.
+
+  Cau -- se' in my mind, you will stay here al -- ways,
+  In love, you and I, you and I, you and I, you and I _
+  In my mind we can con -- quer the world
+  In love, you and I, you and I, _ you and I, _ _ you and I.
 }
 
 \score {
