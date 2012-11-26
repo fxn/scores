@@ -231,6 +231,7 @@ melody = \relative c'' {
   % 71 ~ 4:28
   as1 |
 
+  % 72 ~ 4:32
   r1 \bar "||"
 }
 
