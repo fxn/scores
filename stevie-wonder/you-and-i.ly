@@ -172,7 +172,7 @@ melody = \relative c'' {
   gs1 |
 
   % 52 ~ 3:18
-  r2 r4. gs16 fs |
+  r2 r4. gs16( fs) |
 
 
   % --- Chorus -----------------------------------------------------------------
@@ -257,7 +257,7 @@ melody = \relative c'' {
   Be -- cause that's all that I am li -- ving for, you see,
   Don't worry what hap -- pens to me.
 
-  Cau -- se' in my mind, you will stay here al -- ways,
+  Cause' in my mind, you will stay here al -- ways,
   In love, you and I, you and I, you and I, you and I _
   In my mind we can con -- quer the world
   In love, you and I, you and I, _ you and I, oh, _ you and I.
