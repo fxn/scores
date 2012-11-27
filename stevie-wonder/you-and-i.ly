@@ -1,11 +1,11 @@
-\version "2.16.0"
+\version "2.16.1"
 
 \include "english.ly"
 
 \header {
   title    = "You And I"
-  tagline  = "(Approximate transcription by Xavier Noria)"
   composer = "Stevie Wonder"
+  tagline  = "(Approximate transcription by Xavier Noria)"
 }
 
 melody = \relative c'' {
