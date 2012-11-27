@@ -34,7 +34,7 @@ melody = \relative c'' {
   ds8 d16 fs ~ fs8 cs' b fs ~ \times 2/3 { fs gs as ~ } |
 
   % 9 ~ 0:32
-  as4 ~ as8 cs,8 ds2 ~ |
+  as4 ~ as8 cs,8 ds2 |
 
   % 10 ~ 0:35
   r4 \times 2/3 { d8 cs' b( } fs4) ~ fs8 gs16 as ~ |
@@ -64,7 +64,7 @@ melody = \relative c'' {
   ds8 d16 fs ~ fs8 cs' b8. fs16 fs4 |
 
   % 18 ~ 1:06
-  r8 as ~ as4 r8 cs,16 ds ~ ds4 ~ |
+  r8 as ~ as4 r8 cs,16 ds ~ ds4 |
 
   % 19 ~ 1:10
   r8. d16 fs cs' b8 ~ b8 fs ~ fs8 gs16 as ~ |
@@ -124,7 +124,7 @@ melody = \relative c'' {
   ds8 d16 fs ~ fs8 cs' b fs ~ \times 2/3 { fs gs as ~ } |
 
   % 37 ~ 2:20
-  as4 ~ as8 ds,8 ds2 ~ |
+  as4 ~ as8 ds,8 ds2 |
 
   % 38 ~ 2:24
   r8. d16 fs cs' b8 fs4 ~ fs8 gs16 as ~ |
@@ -148,7 +148,7 @@ melody = \relative c'' {
   % --- Fourth Verse -----------------------------------------------------------
 
   % 44 ~ 2:47
-  as'4^"Fourth Verse (2:47)" ~ as8.[ cs,16] ds2 ~ |
+  as'4^"Fourth Verse (2:47)" ~ as8.[ cs,16] ds2 |
 
   % 45 ~ 2:51
   r8 d16[ fs] ~ fs8 cs'16 b ~ b8 fs ~ fs gs16 as ~ |
