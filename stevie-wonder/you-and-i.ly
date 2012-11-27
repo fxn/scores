@@ -52,7 +52,7 @@ melody = \relative c'' {
   gs1 |
 
   % 15 ~ 0:55
-  r1 |
+  R1 |
 
 
   % --- Second Verse -----------------------------------------------------------
@@ -232,7 +232,7 @@ melody = \relative c'' {
   as1 |
 
   % 72 ~ 4:32
-  r1 \bar "||"
+  R1 \bar "||"
 }
 
 \addlyrics {
