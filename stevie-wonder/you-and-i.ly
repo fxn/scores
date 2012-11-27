@@ -73,22 +73,22 @@ melody = \relative c'' {
   as4 ~ as8 ds,16 fs ~ fs4 ~ fs8 gs16 as ~ |
 
   % 21 ~ 1:18
-  as2 r4. ds,16 as' ~ |
+  as2 r4. ds,16 as'( |
 
   % 22 ~ 1:22
-  gs8( as8) as gs ~ gs4 ~ gs8. fs16  |
+  gs8 as8) as gs ~ gs4 ~ gs8. fs16  |
 
   % 23 ~ 1:26
   gs1 |
 
   % 24 ~ 1:30
-  r2 r4. gs16 fs |
+  r2 r4. gs16( fs) |
 
 
   % --- Chrorus ----------------------------------------------------------------
 
   % 25 ~ 1:33
-  gs8(^"Chorus (1:33)" fs8 gs8) gs ~ gs2 |
+  gs8(^"Chorus (1:33)" fs8) gs8 gs ~ gs2 |
 
   % 26 ~ 1:37
   r4. fs16 gs as8 gs8 ~ gs8. fs16 |
@@ -260,7 +260,7 @@ melody = \relative c'' {
   Cau -- se' in my mind, you will stay here al -- ways,
   In love, you and I, you and I, you and I, you and I _
   In my mind we can con -- quer the world
-  In love, you and I, you and I, _ you and I, _ _ you and I.
+  In love, you and I, you and I, _ you and I, oh, _ you and I.
 }
 
 \score {
