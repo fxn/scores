@@ -31,7 +31,7 @@ melody = \relative c'' {
   r8^"First Verse (0:24)" as ~ as cs,16  ds16 ~ ds2 ~ |
 
   % 8 ~ 0:28
-  ds8 d16 fs ~ fs8 cs' b fs ~ \times 2/3 { fs gs as ~ } |
+  ds8 d16 fs ~ fs8. cs'16 b8 fs ~ \times 2/3 { fs gs as ~ } |
 
   % 9 ~ 0:32
   as4 ~ as8 cs,8 ds2 |
@@ -40,7 +40,7 @@ melody = \relative c'' {
   r4 \times 2/3 { d8 cs' b( } fs4) ~ fs8 gs16 as ~ |
 
   % 11 ~ 0:39
-  as4 ~ \times 2/3 { as8 ds, fs ~ } fs4 ~ fs8 gs16 as ~ |
+  as4 ~ as8 ds,16 fs ~ fs4 ~ fs8 gs16 as ~ |
 
   % 12 ~ 0:43
   as2 r4. ds,16 as' ~ |
@@ -61,7 +61,7 @@ melody = \relative c'' {
   r8^"Second Verse (0:59)" as8 ~ as[ cs,] ds2 ~ |
 
   % 17 ~ 1:03
-  ds8 d16 fs ~ fs8 cs' b8. fs16 fs4 |
+  ds8 d16 fs ~ fs8. cs'16 b8. fs16 fs4 |
 
   % 18 ~ 1:06
   r8 as ~ as4 r8 cs,16 ds ~ ds4 |
@@ -118,16 +118,16 @@ melody = \relative c'' {
   % --- Third Verse ------------------------------------------------------------
 
   % 35 ~ 2:12
-  r8^"Third Verse (2:12)" as ~ as[ cs,] ds2 ~ |
+  r8^"Third Verse (2:12)" as ~ as8. cs,16 ds2 ~ |
 
   % 36 ~ 2:16
   ds8 d16 fs ~ fs8 cs' b fs ~ \times 2/3 { fs gs as ~ } |
 
   % 37 ~ 2:20
-  as4 ~ as8 ds,8 ds2 |
+  as4 ~ as8. ds,16 ds2 |
 
   % 38 ~ 2:24
-  r8. d16 fs cs' b8 fs4 ~ fs8 gs16 as ~ |
+  r8. d16 \times 2/3 { fs8 cs' b } fs4 ~ fs8 gs16 as ~ |
 
   % 39 ~ 2:28
   as4 as16 ds,16 fs8 ~ fs4 ~ fs8 gs16 as ~ |
@@ -154,7 +154,7 @@ melody = \relative c'' {
   r8 d16[ fs] ~ fs8 cs'16 b ~ b8 fs ~ fs gs16 as ~ |
 
   % 46 ~ 2:55
-  as4 ~ as8. cs,16 ds2 |
+  as4 ~ as8. ds,16 ds2 |
 
   % 47 ~ 2:59
   r8 d16[ fs] ~ fs8 cs' b8. fs16 fs gs as8 ~ |
@@ -217,7 +217,7 @@ melody = \relative c'' {
   gs2. ~ gs8 fs16 gs |
 
   % 67 ~ 4:12
-  as4 \glissando cs,2 ~ cs8 as'16 as |
+  as2 \glissando cs,4 ~ cs8 as'16 as |
 
   % 68 ~ 4:16
   gs8( fs) ~ fs2. ~ |
@@ -226,7 +226,7 @@ melody = \relative c'' {
   fs1 |
 
   % 70 ~ 4:24
-  fs4 \glissando fs,2 ~ fs8 as16 cs |
+  ds2 \glissando fs,4 ~ fs8 as16 cs |
 
   % 71 ~ 4:28
   as1 |
