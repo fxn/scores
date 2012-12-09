@@ -266,7 +266,7 @@ melody = \relative c'' {
 
 \bookpart {
   \header {
-    subtitle = "(Transcription in C)"
+    subtitle = "(Transcription in concert pitch)"
   }
 
   \score {
@@ -276,7 +276,7 @@ melody = \relative c'' {
 
 \bookpart {
   \header {
-    subtitle = "(Transposition in E flat)"
+    subtitle = "(Transposition for E-flat instruments)"
   }
 
   \score {
