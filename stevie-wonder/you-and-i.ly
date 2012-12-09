@@ -2,6 +2,12 @@
 
 \include "english.ly"
 
+\header {
+  title    = "You And I"
+  composer = "Stevie Wonder"
+  tagline  = "(Approximate transcription by Xavier Noria)"
+}
+
 melody = \relative c'' {
   \clef treble
   \key fs \major
@@ -257,12 +263,10 @@ melody = \relative c'' {
   In love, you and I, you and I, _ you and I, oh, _ you and I.
 }
 
+
 \bookpart {
   \header {
-    title    = "You And I"
     subtitle = "(Transcription in C)"
-    composer = "Stevie Wonder"
-    tagline  = "(Approximate transcription by Xavier Noria)"
   }
 
   \score {
@@ -272,10 +276,7 @@ melody = \relative c'' {
 
 \bookpart {
   \header {
-    title    = "You And I"
-    subtitle = "(Transcription in E flat)"
-    composer = "Stevie Wonder"
-    tagline  = "(Approximate transcription by Xavier Noria)"
+    subtitle = "(Transposition in E flat)"
   }
 
   \score {
