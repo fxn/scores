@@ -11,3 +11,5 @@ Links of interest:
 * [List of musical symbols](http://en.wikipedia.org/wiki/List_of_musical_symbols)
 
 * [Music theory for musicians and normal people](http://academic.udayton.edu/tobyrush/theorypages/)
+
+* [Music theory & history online](http://www.dolmetsch.com/theoryintro.htm)
