@@ -232,7 +232,7 @@ melody = \relative c'' {
   as1 |
 
   % 72 ~ 4:32
-  R1 \bar "||"
+  R1 \bar "|."
 }
 
 \addlyrics {
