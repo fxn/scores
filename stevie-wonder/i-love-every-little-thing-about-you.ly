@@ -28,25 +28,25 @@ melody = \relative c' {
   % --- First Verse ------------------------------------------------------------
 
   % 5 ~ 0:09
-  ef8 f af bf c ef r c ~ |
+  ef8[ f] af bf c ef r c ~ |
 
   % 6 ~ 
   c2 r |
 
   % 7 ~
-  ef,8 f af bf r c bf[ bf] |
+  ef,8[ f] af bf r c bf[ bf] |
 
   % 8 ~
-  af2 r4. f8 |
+  af2 r4 r8 f8 |
 
   % 9 ~
-  gf af af af bf4 c8 bf8 ~ |
+  gf[ af] af af bf4 c8 bf8 ~ |
 
   % 10 ~
   bf8 af r2 r8 f8 |
 
   % 11 ~
-  
+
 }
 
 \bookpart {
