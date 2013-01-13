@@ -137,13 +137,7 @@ melody = \relative c'' {
     { r4 r8 a-.\f gs8. fs16-. r4 }
   }
   
-  R1*3 |
-  R1
-
-  \bar "||"
-
-  R1 |
-  R1*5
+  R1*10
 
   \bar "|."
 }
