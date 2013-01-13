@@ -66,7 +66,7 @@ melody = \relative c'' {
     \a_gs_fs  \bar "||"
     ds8.->\p cs16-. r8 ds-. \ds_cs_art r8 ds8-> ~ |
     ds8[ cs8-. cs8-. ds8-.] \ds_cs_art r4 |
-    \ds_cs r8 ds8-. \ds_cs_art r8 e8-> ~ |
+    \ds_cs_art r8 ds8-. \ds_cs_art r8 e8-> ~ |
 
     % --- page 9 --------------------------------------------------------------
 
@@ -95,16 +95,16 @@ melody = \relative c'' {
   % --- page 12 ---------------------------------------------------------------
   
   \repeat volta 2 {
-    cs8. cs16 r4 r2 |
-    cs8. cs16 r4 r2 |
-    cs8. cs16 r4 r2 |
+    cs8.\mf cs16-. r4 r2 |
+    cs8. cs16-. r4 r2 |
+    cs8. cs16-. r4 r2 |
   }
   \alternative {
-    { cs8. cs16 r4 r8 cs16-- cs16-. r4 }
+    { cs8. cs16-. r4 r8 cs16-- cs16-. r4 }
 
     % --- page 13 -------------------------------------------------------------
 
-    { cs8. cs16 r4 r4 e16( fs-^) r8 }
+    { cs8. cs16-. r4 r4 e16( fs-^) r8 }
   }
 
   \bar "||"
