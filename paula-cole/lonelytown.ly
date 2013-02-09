@@ -23,8 +23,8 @@ melody = \relative c' {
   af4 ~ af8 cf8 bf4 r4 |
   r4 r8 gf16 bf16 af8 gf8 r4 |
   r4 r8 f16 af16 df4 ~ df8. f16 |
-  af,4 r2 r8 c16 df16 |
-  c2 bf2 \bar "||" |
+  af,4 r2 r8 df16 ef16 |
+  df2 c2 \bar "||" |
 
   r4^"First Verse (1:04)" r8 af'16 f16 ~ f16 ef16 df8 r4 |
   r4 r8 bf16 df16 bf'2 |
@@ -69,8 +69,8 @@ melody = \relative c' {
   r4 r16 f16 af16 f16 ef4 ~ ef8 df16 ef16 |
   \times 2/3 { f4 f4 gf4 } ef'16 df32 c32 df8 ~ df4 |
   r8 c8 ~ c16 af8. f4 r8 af16 bf16 |
-  af4 ~ af8 gf8 f4 ~ f8 df8 |
-  af'4 ~ af8 gf16 f16 ef4 ~ ef8 df8 |
+  af4 ~ af8 gf8 f4 ~ f8 ef8 |
+  af4 ~ af8 gf16 f16 ef4 ~ ef8 df8 |
   f2 ~ f4 r8 ef8 |
   af4^"ad lib." ~ af8 f8 c4 ~ c8 df8 |
   bf2 c2 |
