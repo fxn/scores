@@ -5,7 +5,7 @@
 \header {
   title    = "Lonelytown"
   composer = "Paula Cole"
-  tagline  = "(Approximate transcription by Xavier Noria, play with a jazzy phrasing)"
+  tagline  = "(Approximate transcription by Xavier Noria)"
 }
 
 melody = \relative c' {
