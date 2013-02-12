@@ -22,7 +22,7 @@ melody = \relative c' {
   r4^"Intro - ad lib. (0:25)" r8 \acc ef32 f16 f16 ef4 r4 |
   r4 bf8 \acc df16 ef8 df4 r4 |
   r4 \times 2/3 { df,8 c'8 df8 } c4 ~ c8. bf16 |
-  af4 ~ af8 \acc bf16 cf8 bf4 r4 |
+  af4 ~ af8. \acc bf32 cf16 bf4 r4 |
   r4 r8 gf16 bf16 af16 gf16 r8 r4 |
   r4 r8 f16 af16 \acc c8 df4 ~ df8. f16 |
   af,4 r2 r8 \acc df16 ef8 |
@@ -41,8 +41,8 @@ melody = \relative c' {
   r4 r8 bf16 df16 \acc af'8 bf2 |
   r4 r8 \times 2/3 { f16 af16 \acc ef32 f16 } ef4 ~ ef8 df16 ef16 |
   \acc ef8 f4 ~ f16 f8 f16 ef'8( df8\mordent ~ df8 c8) |
-  r4 \times 2/3 { r8 \acc bf16 c8 af8 } f4 ~ f8 \acc af16 bf8 |
-  af4 ~ af8 gf8 f4 ~ f8 ef8 |
+  r4 \times 2/3 { r8 \acc bf16 c8 af8 } f4 ~ f8. \acc af32 bf16 ~ |
+  bf8 af8 ~ af8. gf16 f4 ~ f8 ef8 |
   df2 \acc c8 df2 |
   \acc c8 df2 r2 |
 
@@ -71,10 +71,10 @@ melody = \relative c' {
   r4 r8 \times 2/3 { f16 af16 \acc ef32 f16 } ef4 ~ ef8 df16 ef16 |
   \acc ef8 \times 2/3 { f4 f4 gf4 } df'8( df8\turn ~ df4) |
   r8 \acc bf16 c8 ~ c16 af8. f4 r8 \acc af16 bf8 |
-  af4 ~ af8 gf8 f4 ~ f8 ef8 |
+  af4 ~ af8. gf16 f4 ~ f8. ef16 |
   \acc gf8 af4 ~ af8 gf16 f16 ef4 ~ ef8 df8 |
   f8( f8\turn ~ f2) r8 ef8 |
-  \acc gf8 af4^"ad lib." ~ af8 f8 c4 ~ c8 df8 |
+  \acc gf8 af4^"ad lib." ~ af8. f16 c4 ~ c8. df16 |
   bf2 \acc bf8 c2 |
   \acc c8 df1^\fermata \bar "|."
 }
