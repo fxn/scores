@@ -15,3 +15,5 @@ Links of interest:
 * [Music theory for musicians and normal people](http://academic.udayton.edu/tobyrush/theorypages/)
 
 * [Music theory & history online](http://www.dolmetsch.com/theoryintro.htm)
+
+* [Step by step LilyPond refinements examples](https://github.com/janek-warchol/eja-mater-demonstration)

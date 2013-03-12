@@ -5,7 +5,7 @@
 
 \version "2.16.1"
 
-\include "english.ly"
+\include "../shared/common.ly"
 
 \header {
   title    = "Brick House"

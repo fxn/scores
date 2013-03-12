@@ -1,6 +1,6 @@
 \version "2.16.1"
 
-\include "english.ly"
+\include "../shared/common.ly"
 
 \header {
   title    = "Seems So Long"
@@ -13,10 +13,6 @@ melody = \relative c'' {
   \key af \major
   \time 4/4
   % \tempo 4 = 62
-
-  \compressFullBarRests
-  \override MultiMeasureRest #'expand-limit = #2
-  \override Glissando #'style = #'zigzag
 
 
   % --- Introduction -----------------------------------------------------------

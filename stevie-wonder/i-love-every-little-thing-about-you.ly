@@ -1,6 +1,6 @@
 \version "2.16.1"
 
-\include "english.ly"
+\include "../shared/common.ly"
 
 \header {
   title    = "I Love Every Little Thing About You"
@@ -13,10 +13,6 @@ melody = \relative c' {
   \key df \major
   \time 4/4
   \tempo 4 = 132
-
-  \compressFullBarRests
-  \override MultiMeasureRest #'expand-limit = #2
-  \override Glissando #'style = #'zigzag
 
 
   % --- Introduction -----------------------------------------------------------
@@ -61,7 +57,7 @@ melody = \relative c' {
 
 \bookpart {
   \header {
-    subtitle = "(Transposition for E♭ instruments)"
+    subtitle = "(Transposition in E♭)"
   }
 
   \score {

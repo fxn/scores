@@ -1,6 +1,6 @@
 \version "2.16.1"
 
-\include "english.ly"
+\include "../shared/common.ly"
 
 acc = #acciaccatura
 
@@ -124,7 +124,7 @@ melody = \relative c' {
 
 \bookpart {
   \header {
-    subtitle = "(Transposition for E♭ instruments)"
+    subtitle = "(Transposition in E♭)"
   }
 
   \score {
