@@ -116,34 +116,35 @@ solo = \relative c'' {
 }
 
 \bookpart {
-  \header {
-    subtitle = "(Solo)"
+  \score {
+    <<
+      \new ChordNames {
+        \chordslist
+      }
+
+      \new Staff {
+        \chordslist
+      }
+    >>
+
+    \header {
+      piece = \markup \fill-line { \bold "Chords" }
+    }
   }
 
-  <<
-    \new ChordNames {
-      \harmony
+  \score {
+    <<
+      \new ChordNames {
+        \harmony
+      }
+
+      \new Staff {
+        \solo
+      }
+    >>
+
+    \header {
+      piece = \markup \fill-line { \bold "Solo" }
     }
-
-    \new Staff {
-      \solo
-    }
-  >>
-}
-
-
-\bookpart {
-  \header {
-    subtitle = "(Chords)"
   }
-
-  <<
-    \new ChordNames {
-      \chordslist
-    }
-
-    \new Staff {
-      \chordslist
-    }
-  >>
 }
