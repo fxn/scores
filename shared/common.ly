@@ -24,8 +24,8 @@
     \override VerticalAxisGroup #'nonstaff-relatedstaff-spacing #'padding = #0.35
   }
 
-  \context {
-    \Score
-    \override BarNumber #'break-visibility = #'#(#f #t #t)
-  }
+  %\context {
+  %  \Score
+  %  \override BarNumber #'break-visibility = #'#(#f #t #t)
+  %}
 }

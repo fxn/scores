@@ -115,36 +115,34 @@ solo = \relative c'' {
   g2 f2 | e4 fs4 r4 f4( | f2) e4 g4 | f1\fermata \bar "|."
 }
 
-\bookpart {
-  \score {
-    <<
-      \new ChordNames {
-        \chordslist
-      }
-
-      \new Staff {
-        \chordslist
-      }
-    >>
-
-    \header {
-      piece = \markup \fill-line { \bold "Chords" }
+\score {
+  <<
+    \new ChordNames {
+      \chordslist
     }
+
+    \new Staff {
+      \chordslist
+    }
+  >>
+
+  \header {
+    piece = \markup \fill-line { \bold "Chords" }
   }
+}
 
-  \score {
-    <<
-      \new ChordNames {
-        \harmony
-      }
-
-      \new Staff {
-        \solo
-      }
-    >>
-
-    \header {
-      piece = \markup \fill-line { \bold "Solo" }
+\score {
+  <<
+    \new ChordNames {
+      \harmony
     }
+
+    \new Staff {
+      \solo
+    }
+  >>
+
+  \header {
+    piece = \markup \fill-line { \bold "Solo" }
   }
 }
