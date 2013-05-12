@@ -127,7 +127,7 @@ solo = \relative c'' {
   >>
 
   \header {
-    piece = \markup \fill-line { \bold "Chords" }
+    piece = "Chords"
   }
 }
 
@@ -143,6 +143,6 @@ solo = \relative c'' {
   >>
 
   \header {
-    piece = \markup \fill-line { \bold "Solo" }
+    piece = "Solo"
   }
 }
