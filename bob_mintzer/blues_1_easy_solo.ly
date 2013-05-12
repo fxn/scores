@@ -82,25 +82,25 @@ solo = \relative c'' {
   d1 | e1 |
 
   % 3
-  d1 | c2. b4 | bf2 b2 | bf4 r4 r4 r8 c8 |
+  d1 | c2. b4 | bf2 b2 | bf4-- r4 r4 r8 c8 |
 
   % 7
   d2 e2 | fs2 gs2 | g1 | fs1 |
 
   % 11
-  d2 c2 | c2 b2 | \bar "||" bf1 | g4 r4 r2 |
+  d2 c2 | c2 b2 | \bar "||" bf1 | g4-^ r4 r2 |
 
   % 15
-  b1 | r2 r4 g4 | e2. ds8( e8) | r2 r4 fs4 | f2 r8 e8( e4) |
+  b1 | r2 r4 g4-^ | e2. ds8( e8-.) | r2 r4 fs4-^ | f2 r8 e8( e4) |
 
   % 20
-  ds4 a'2 gs4 | g2. r4 | fs4 a2. | b2 c2 | e2 c2 \bar "||"
+  ds4 a'2 gs4-- | g2. r4 | fs4 a2. | b2 c2 | e2 c2 \bar "||"
 
   % 25
   d2 ds2 | e2 ef2 | d2 r2 | e2. ds4 |
 
   % 29
-  e4 r4 f2 | e4 r2 e4 | fs1 | gs1 | g1 | fs1 | d2 c2 | e4 r4 fs2 \bar "||"
+  e4-. r4 f2 | e4 r2 e4 | fs1 | gs1 | g1 | fs1 | d2 c2 | e4 r4 fs2 \bar "||"
 
   % 37
   f2 ds2 | e1 | f1( |
