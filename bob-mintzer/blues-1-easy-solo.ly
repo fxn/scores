@@ -23,7 +23,7 @@
 }
 
 chordslist = \chordmode {
-  c1:7 cs1:7 d1:m7 d1:7 d1:aug7 d1:11 d1:13 ef1:13 e1:7 e1:aug7 f1:7 g1:7 g1:aug7 a1:m7 a1:7 a1:9 b1:m7 b1:7
+  c1:7 cs:7 d:m7 d:7 d:aug7 d:11 d:13 ef:13 e:7 e:aug7 f:7 g:7 g:aug7 a:m7 a:7 a:9 b:m7 b:7
 }
 
 harmony = \chordmode {
