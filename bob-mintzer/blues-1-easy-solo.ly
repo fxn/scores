@@ -19,7 +19,7 @@
 \header {
   title    = "Blues 1: Easy Solo"
   composer = "Xavier Noria"
-  tagline  = "(Easy solo in E♭ for Bob Mintzer's \"Blues 1\", from his \"Easy Jazz, Blues & Funk Etudes\")"
+  tagline  = "(Easy solo in E♭ for Bob Mintzer's \"Blues 1\", from his \"Easy Jazz, Blues & Funk Etudes\".)"
 }
 
 chordslist = \chordmode {
