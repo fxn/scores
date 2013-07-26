@@ -5,6 +5,22 @@
 \header {
   title    = "Funky: Second Voice"
   composer = "Xavier Noria"
+
+  copyright = \markup \center-column {
+    \with-url #"http://www.hashref.com"
+    \line {
+      Copyright © 2013 by Xavier Noria (http://www.hashref.com)
+    }
+    \line {
+      This edition may be freely copied, distributed,
+      performed and recorded under the provisions of the
+    }
+    \with-url #"http://creativecommons.org/licenses/by/3.0/"
+    \line {
+      Creative Commons Attribution 3.0 Unported License
+      http://creativecommons.org/licenses/by/3.0/)
+    }
+  }
   tagline  = "(Second Voice in E♭ for Bob Mintzer's \"Funky\", from his \"Easy Jazz, Blues & Funk Etudes\".)"
 }
 
