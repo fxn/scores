@@ -30,7 +30,7 @@ melody = \relative c'' {
     r4 fs8( e8) d8( b8) r4 |
 
     % 6
-    cs8( d8 cs4) d2 |
+    cs8( a8 cs4) d2 |
 
     % 7
     r2 \acciaccatura gs,16 a8 b8 a8 fs8 |
@@ -103,7 +103,7 @@ melody = \relative c'' {
   r2 r4 b8 b8 |
 
   % 28
-  a8( fs8) b4 d2 |
+  a8( fs8) a4 d2 |
 
   % 29
   r2 r8 d8 fs8[ gs8] |
