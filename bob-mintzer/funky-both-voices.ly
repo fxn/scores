@@ -15,7 +15,7 @@ melody = \relative c'' {
   
   \repeat volta 2 {
     % 1
-    r4 fs8 ( d8) e8( d8) r4 |
+    r4 << fs8( \\ d8( >> << d8) \\ b8) >> << e8( \\ cs8( >> << d8) \\ b8) >> r4 |
 
     % 2
     cs8( d8 cs4) d2 |
