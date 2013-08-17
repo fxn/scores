@@ -21,7 +21,7 @@ melody = \relative c'' {
     << cs8( \\ a8( >> << d8 \\ b >> << cs4) \\ a) >> << d2 \\ b >> |
 
     % 3
-    r4 b8( a8) e'8( d8) r4 |
+    r4 d8( b8) e'8( d8) r4 |
 
     % 4
     cs4 cs8( fs8) r8 e8 d4 |
