@@ -30,10 +30,10 @@ melody = \relative c'' {
     r4 << fs8( \\ d8( >> << e8) \\ cs8) >> << d8( \\ b8( >> << b8) \\ fs8) >> r4 |
 
     % 6
-    cs8( a8 cs4) d2 |
+    << cs'8( \\ a8( >> << d8 \\ b8 >> << cs4) \\ a4) >> << d2 \\ b2 >> |
 
     % 7
-    r2 \acciaccatura gs,16 a8 b8 a8 fs8 |
+    r2 \acciaccatura gs,16 a'8 b8 a8 fs8 |
 
     % 8
     e8 fs8 r4 r2 |
