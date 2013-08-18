@@ -115,13 +115,13 @@ melody = \relative c'' {
   r4 r8 << a8( \\ f8( >> << gs8) \\ e8) >> << fs8 \\ d8 >> r4 |
 
   % 32
-  \acciaccatura gs16 a2 \times 2/3 { gs8( fs8 e8) } d4 |
+  << \acciaccatura gs16 \\ \acciaccatura f16 >> << a2 \\ fs2 >> \times 2/3 { << gs8( \\ e8( >> << fs8 \\ d8 >> << e8) \\ cs8) >>  } << d4 \\ b4 >> |
 
   % 33
-  cs8( d8) r4 d2 |
+  << cs8( \\ a8( >> << d8) \\ b8) >> r4 << d2 \\ b2 >> |
 
   % 34
-  r2 fs,8( b8) a4
+  r2 fs8( b8) a4
 
   % 35
   a4. gs8( gs2) |
