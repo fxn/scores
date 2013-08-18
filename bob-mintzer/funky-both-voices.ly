@@ -79,7 +79,7 @@ melody = \relative c'' {
   % 20
   << cs4 \\ gs4 >> << cs8( \\ gs8( >> << fs'8) \\ d8) >> r8 << e8 \\ cs8 >> << b4 \\ d4>> |
 
-  % 21
+  % 21d
   r4 << b8 \\ fs8 >> << b8 \\ fs8 >> << d'8 \\ a8 >>  << e'8 \\ b8 >> r4 |
 
   % 22
@@ -109,7 +109,7 @@ melody = \relative c'' {
   r2 r8 << d8 \\ b8 >> << fs'8[ \\ d8[ >> << gs8] \\ e8] >> |
 
   % 30
-  a8 fs8 gs8 d8 fs8 gs8 r4 |
+  << a8 \\ f8 >>  << fs8 \\ d8 >> << gs8 \\ e8 >>  << d8 \\ b8 >> << fs'8 \\ d8 >> << gs8 \\ e8 >> r4 |
 
   % 31
   r4 r8 a8( gs8) fs8 r4 |
