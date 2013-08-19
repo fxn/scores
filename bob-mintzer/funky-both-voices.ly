@@ -130,16 +130,16 @@ melody = \relative c'' {
   r2 << { fs'8 e8 d8 fs8 } \\ { d8 cs8 b8 d8 } >> |
 
   % 37
-  << { e8 d8 } \\ { cs8 b8 } >> r4 r4 r8 << f8 \\ d8 >> |
+  << { e8 d8 } \\ { cs8 b8 } >> r4 r4 r8 << f'8 \\ d8 >> |
 
   % 38
-  << { e8 d8 r4 e8( f8) e8 d8 } \\ {} >> |
+  << { e8 d8 r4 e8( f8) e8 d8 } \\ { cs8 b8 r4 cs8( d8) cs8 b8 } >> |
 
   % 39
-  fs2 gs4. fs8( |
+  << { fs'2 gs4. fs8( } \\ { d2 e4. d8( } >> |
 
   % 40
-  fs2) b8( a8) fs8( e8) |
+  << fs2) \\ d2) >> b8( a8) fs8( e8) |
 
   % 41
   a8 b8 r4 r2 |
