@@ -169,7 +169,7 @@ melody = \relative c'' {
   << { b'4. a8( a2) } \\ { fs4. e8( e2) } >> |
 
   % 50
-  r4 fs8( e8) d8( fs8) r4 |
+  r4 << { a8( b8) d8( b8) } \\ { e,8( fs8) a8( fs8) } >>  r4 |
 
   % 51
   r4 b8 a8 b8 a8 fs8 e8( |
