@@ -193,13 +193,13 @@ melody = \relative c'' {
   << {fs'2 e4. d8} \\ { d2 b4. a8 } >> |
 
   % 58
-  r4 fs2 e8 d8(
+  r4 << { b2 a8 b8( } \\ { fs2 e8 fs8( } >> |
 
   % 59
-  d2) gs,4. fs8(
+  << { b2) gs4. fs8( } \\ { fs2) e4. d8( } >> |
 
   % 60
-  fs1)\fermata \bar "|."
+  << fs1)\fermata \\ d1)\fermata >>  \bar "|."
 }
 
 \score {
