@@ -157,7 +157,52 @@ melody = \relative c'' {
   
   % 69
   \rmark
-  r2 r8 a8 c8 d8 |
+  r2 r8 a,8 c8 d8 |
+  
+  % 70
+  e8 a,8 a8 c8( c8) d8 r4 |
+  
+  % 71
+  r8 e8 a,8 a8 c8 d8 e8 a,8( |
+  
+  % 72
+  a8) g8 r4 r8. a32 a32 c16 d16 d8 |
+  
+  % 73
+  e4 r8 a,8 c8 d8 c8 d8( |
+  
+  % 74
+  d8) e8 r4 r8 d8 c8 c8 |
+  
+  % 75
+  e8. d32 c32 a4 a8 g16 e16 a4 |
+  
+  % 76
+  c16 a8. a8 g16 e16 a4 c8-. r8 |
+  
+  % 77
+  r2 f,8 g8 f8 a8( |
+  
+  % 78
+  a16) g32 f32 d8 r8 d8 f4 g8 r8 |
+  
+  % 79
+  r4 a8. c16 a4 g16 f16 d8 |
+  
+  % 80
+  a'16( g16 f16 d16)( d4)( d8) r8 r4 |
+  
+  % 81
+  r2 e8 g8 a8 g8 |
+  
+  % 82
+  b4 b16 a16 g8 a4 b8-. r8 |
+  
+  % 83
+  r2 r8 b8 g16 e8 d16 |
+  
+  % 84
+  e4 r8 e16 e16 b'8 d8 d8 b8 |
   
   \bar "|."
 }
