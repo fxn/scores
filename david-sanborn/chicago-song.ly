@@ -8,8 +8,8 @@
   tagline  = "(For E♭ instruments, transposed one octave down.)"
 }
 
-aline = { a8[ b8 c8-- b8-.] }
-cline = { r8 e,8 g8 g8 e8-. r8 r4 }
+afig = { a8[ b8 c8-- b8-.] }
+bfig = { r8 e,8 g8 g8 e8-. r8 r4 }
 rmark = { \mark \default \bar "||" }
 
 melody = \relative c'' {
@@ -24,26 +24,26 @@ melody = \relative c'' {
   R1*11 |
 
   % 12
-  r2 \aline |
+  r2 \afig |
 
   % 13
   \rmark
   r1 |
   
   % 14
-  r2 \aline |
+  r2 \afig |
   
   % 15
   r8 e,8-. g8 g8 e-. r8 r4 |
   
   % 16
-  r2 \aline |
+  r2 \afig |
   
   % 17
   r1 |
   
   % 18
-  r2 \aline |
+  r2 \afig |
   
   % 19
   r8 e,16 r16 g8 g8 e-. r8 r4 |
@@ -67,7 +67,7 @@ melody = \relative c'' {
   r8 e,8-. g8 g8 b4-. r4 |
   
   % 26
-  r2 \aline |
+  r2 \afig |
   
   % 27
   r8 e8 g8 g8 e4-- r4 |
@@ -80,25 +80,25 @@ melody = \relative c'' {
   r8 d8 b4-. g8 g8 e8-. r8 |
   
   % 30
-  r4 r8. < \parenthesize e16 > \aline |
+  r4 r8. < \parenthesize e16 > \afig |
   
   % 31
-  \cline |
+  \bfig |
   
   % 32
-  r2 \aline |
+  r2 \afig |
   
   % 33
   r1 |
   
   % 34
-  r4 r8. < \parenthesize e,16 > \aline |
+  r4 r8. < \parenthesize e,16 > \afig |
   
   % 35
-  r8 e,16 r16 g8 g8 g8-. r8 r4 |
+  r8 e,16 r16 g8 g8 e8-. r8 r4 |
   
   % 36
-  r2 c8[ d8 ef-- d8-.] |
+  r2 c'8[ d8 ef-- d8-.] |
   
   % 37
   r1 |
@@ -113,7 +113,7 @@ melody = \relative c'' {
   r2 e'8 d8 c8 b8 |
   
   % 41
-  r8 e,-. g8 g8 b4-. r4 |
+  r8 e,-. g8 g8\glissando b4-. r4 |
   
   % 42
   r4 r8. < \parenthesize e,16 > a8 b8 c-- b8-. |
@@ -132,22 +132,22 @@ melody = \relative c'' {
   r8 d'8 b8 r8 g8 g8 e8-. r8 |
   
   % 54
-  r4 r8. < \parenthesize e16 > \aline |
+  r4 r8. < \parenthesize e16 > \afig |
   
   % 55
-  \cline |
+  \bfig |
   
   % 56
-  r2 \aline |
+  r2 \afig |
   
   % 57
   r1 |
   
   % 58
-  r4 r8. < \parenthesize e,16 > \aline |
+  r4 r8. < \parenthesize e,16 > \afig |
   
   % 59
-  \cline |
+  \bfig |
   
   % 60
   R1* 8 |
@@ -172,10 +172,10 @@ melody = \relative c'' {
   e4 r8 a,8 c8 d8 c8 d8( |
   
   % 74
-  d8) e8 r4 r8 d8 c8 c8 |
+  d8) e8 r4 r8 d8 c8 a8 |
   
   % 75
-  e8. d32 c32 a4 a8 g16 e16 a4 |
+  e'8. d32 c32 a4 a8 g16 e16 a4 |
   
   % 76
   c16 a8. a8 g16 e16 a4 c8-. r8 |
@@ -199,31 +199,31 @@ melody = \relative c'' {
   b4 b16 a16 g8 a4 b8-. r8 |
   
   % 83
-  r2 r8 b8 g16 e8 d16 |
+  r2 r8 b8\glissando g16 e8 d16 |
   
   % 84
   e4 r8 e16 e16 b'8 d8 d8 b8 |
   
   % 85
-  d4 b4 r8 a8( e8) g8( |
+  d4 b4\bendAfter #-5 r8 a8( e8) g8( |
   
   % 86
   g8) a8 r8 e16 e16 b'8 d8 d8 b8 |
   
   % 87
-  d4 b4 r8 \times 2/3 { b16 a16 g16 } e8 a8( |
+  d4 b4\bendAfter #-5 r8 \times 2/3 { b16 a16 g16 } e8 a8( |
   
   % 88
   a8) g8 r8 e8-. b'8 d8 d8 b8 |
   
   % 89
-  d4 b4 r8 a8( e8) g8( |
+  d4 b4\bendAfter #-5 r8 a8( e8) g8( |
   
   % 90
   g8) a16 r16 r8 e16 e16 b'8 d8-. d8-. d8-. |
   
   % 91
-  d8 b8 b2 bf16 a16 g16 e16 |
+  d8 b8 b2^"Bend" bf16 a16 g16 e16 |
   
   % 92
   a16 g16 e16 d16 a'16 g16 e8 r4 a16 g16 a'8( |
@@ -235,19 +235,19 @@ melody = \relative c'' {
   a2) f16 d8. d8 c16 a16 |
   
   % 95
-  d8. f16 f4( f8.) r16 a,16-. c16-. d8-- |
+  d8. f16 f4( f8.)\bendAfter #-5 r16 a,16-. c16-. d8-- |
   
   % 96
   f2 d16 c16 a16 gs16 g16 f16 d8 |
   
   % 97
-  b'4 b8 b8 b8-. b8-. b8-. b8-. |
+  b'4 b8 b8 b8-.\bendAfter #-4 b8-.\bendAfter #-4 b8-.\bendAfter #-4 b8-.\bendAfter #-4 |
   
   % 98
   b2 g16 e8 d16 e8 d8 |
   
   % 99
-  d16 e8 d16 e8 g16 a16 b8 \times 2/3 { a16 g16 e16 } a16 g16 e16 < \parenthesize d16 > |
+  d16 e8 d16 e8 g16 a16 b8 \times 2/3 { a16 g16 e16 } a16 g16 e16 < \parenthesize \deadNote d16 > |
   
   % 100
   e4 r4 r8 a8 c16 a16 a'8( |
@@ -256,7 +256,7 @@ melody = \relative c'' {
   a2) r8 ef16 d16 c8 a8( |
   
   % 102
-  a4) g8 e8 c'8 a8 c8-. a8 |
+  a4) g8 e8 c'8 a8 c8-. a8\bendAfter #-5 |
   
   % 103
   r1
@@ -274,29 +274,29 @@ melody = \relative c'' {
   d4) ef8 c8( c4.) g8 |
   
   % 108
-  r1
+  r1 |
   
   % 109
   \rmark
-  r8 d'8 b4-. g8 g8 e8-. r8 |
+  r8 d''8 b4-. g8 g8 e8-. r8 |
   
   % 110
-  r2 \aline |
+  r2 \afig |
   
   % 111
-  \cline |
+  \bfig |
   
   % 112
-  r2 \aline |
+  r2 \afig |
   
   % 113
   r1 |
   
   % 114
-  r2 \aline |
+  r2 \afig |
   
   % 115
-  \cline
+  \bfig
   
   % 116
   r1
