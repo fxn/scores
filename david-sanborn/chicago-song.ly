@@ -9,7 +9,7 @@
 }
 
 aline = { a8[ b8 c8-- b8-.] }
-bline = { c8[ d8 ef-- d8-.] }
+cline = { r8 e,8 g8 g8 e8-. r8 r4 }
 rmark = { \mark \default \bar "||" }
 
 melody = \relative c'' {
@@ -46,16 +46,16 @@ melody = \relative c'' {
   r2 \aline |
   
   % 19
-  r8 e16 r16 g8 g8 e-. r8 r4 |
+  r8 e,16 r16 g8 g8 e-. r8 r4 |
   
   % 20
-  r2 \bline |
+  r2 c'8[ d8 ef-- d8-.] |
   
   % 21
   r1 |
   
   % 22
-  r4 r8. g,16-. \bline |
+  r4 r8. g,16-. c8[ d8 ef-- d8-.] |
   
   % 23
   r8 g,8 bf8 bf8 g4-. r4 |
@@ -83,7 +83,7 @@ melody = \relative c'' {
   r4 r8. < \parenthesize e16 > \aline |
   
   % 31
-  r8 e,8 g8 g8 e8-. r8 r4 |
+  \cline |
   
   % 32
   r2 \aline |
@@ -98,13 +98,13 @@ melody = \relative c'' {
   r8 e,16 r16 g8 g8 g8-. r8 r4 |
   
   % 36
-  r2 \bline |
+  r2 c8[ d8 ef-- d8-.] |
   
   % 37
   r1 |
   
   % 38
-  r4 r8. < \parenthesize g,16 > \bline |
+  r4 r8. < \parenthesize g,16 > c8[ d8 ef-- d8-.] |
   
   % 39
   r8 g,8 bf8 bf8 g4-. r4 |
@@ -135,7 +135,7 @@ melody = \relative c'' {
   r4 r8. < \parenthesize e16 > \aline |
   
   % 55
-  r8 e,8 g8 g8 e8-. r8 r4 |
+  \cline |
   
   % 56
   r2 \aline |
@@ -147,7 +147,7 @@ melody = \relative c'' {
   r4 r8. < \parenthesize e,16 > \aline |
   
   % 59
-  r8 e,8 g8 g8 e8-. r8 r4 |
+  \cline |
   
   % 60
   R1* 8 |
@@ -204,6 +204,103 @@ melody = \relative c'' {
   % 84
   e4 r8 e16 e16 b'8 d8 d8 b8 |
   
+  % 85
+  d4 b4 r8 a8( e8) g8( |
+  
+  % 86
+  g8) a8 r8 e16 e16 b'8 d8 d8 b8 |
+  
+  % 87
+  d4 b4 r8 \times 2/3 { b16 a16 g16 } e8 a8( |
+  
+  % 88
+  a8) g8 r8 e8-. b'8 d8 d8 b8 |
+  
+  % 89
+  d4 b4 r8 a8( e8) g8( |
+  
+  % 90
+  g8) a16 r16 r8 e16 e16 b'8 d8-. d8-. d8-. |
+  
+  % 91
+  d8 b8 b2 bf16 a16 g16 e16 |
+  
+  % 92
+  a16 g16 e16 d16 a'16 g16 e8 r4 a16 g16 a'8( |
+  
+  % 93
+  a1)( |
+  
+  % 94
+  a2) f16 d8. d8 c16 a16 |
+  
+  % 95
+  d8. f16 f4( f8.) r16 a,16-. c16-. d8-- |
+  
+  % 96
+  f2 d16 c16 a16 gs16 g16 f16 d8 |
+  
+  % 97
+  b'4 b8 b8 b8-. b8-. b8-. b8-. |
+  
+  % 98
+  b2 g16 e8 d16 e8 d8 |
+  
+  % 99
+  d16 e8 d16 e8 g16 a16 b8 \times 2/3 { a16 g16 e16 } a16 g16 e16 < \parenthesize d16 > |
+  
+  % 100
+  e4 r4 r8 a8 c16 a16 a'8( |
+  
+  % 101
+  a2) r8 ef16 d16 c8 a8( |
+  
+  % 102
+  a4) g8 e8 c'8 a8 c8-. a8 |
+  
+  % 103
+  r1
+  
+  % 104
+  r4 a16 c16 d8 e4 g8 \acciaccatura ef16 d8( |
+  
+  % 105
+  d2) a8 c8 d8 a'8( |
+  
+  % 106
+  a2) a8 g8 ef8 d8( |
+  
+  % 107
+  d4) ef8 c8( c4.) g8 |
+  
+  % 108
+  r1
+  
+  % 109
+  \rmark
+  r8 d'8 b4-. g8 g8 e8-. r8 |
+  
+  % 110
+  r2 \aline |
+  
+  % 111
+  \cline |
+  
+  % 112
+  r2 \aline |
+  
+  % 113
+  r1 |
+  
+  % 114
+  r2 \aline |
+  
+  % 115
+  \cline
+  
+  % 116
+  r1
+
   \bar "|."
 }
 
