@@ -9,8 +9,17 @@
   tagline  = \markup { \fontsize #1 \override #'(font-name . "LilyJAZZ Text") "(For E♭ instruments.)" }
 }
 
+harmony = \new ChordNames \with {
+  \override ChordName #'font-size = #0
+  \override ChordName #'font-name = #"lilyjazzchord"
+} \chordmode {
+
+  e2:m7 a2:7
+}
+
 melody = \relative c'' {
   \jazzOn
+
   \clef treble
   \key d \major
   \time 4/4
@@ -66,5 +75,13 @@ melody = \relative c'' {
 }
 
 \score {
-  \melody
+  <<
+    \new ChordNames {
+      \harmony
+    }
+
+    \new Staff {
+      \melody
+    }
+  >>
 }
