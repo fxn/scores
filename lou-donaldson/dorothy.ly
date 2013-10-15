@@ -39,6 +39,7 @@ melody = \relative c'' {
   a2 r4 \times 2/3 { r8 gs8 g8 } | \break
 
   % A
+  \mark #1
   fs4(^"0:39" fs16) fs16 fs16 g16 ds2 |
   r4 fs16 fs16 fs16 g16 ds8 e8 fs8 g8 |
   gs8. gs16 \times 2/3 { gs8 b8 a8 } f2 |
