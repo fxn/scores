@@ -14,7 +14,17 @@ harmony = \new ChordNames \with {
   \override ChordName #'font-name = #"lilyjazzchord"
 } \chordmode {
 
-  e2:m7 a2:7
+  e2:m7 a2:7 e2:m7 a2:7 fs:m7 b2:7 fs2:m7 b2:7
+  e2:m7 a2:7 fs2:m7.5- b2:7 e2:m7 a2:7 d2.:maj7 fs8:m7 f8:m7
+
+  e2:m7 a2:7 e2:m7 a2:7 fs:m7 b2:7 fs2:m7 b2:7
+  e2:m7 a2:7 fs2:m7.5- b2:7 e2:m7 a2:7 d1:maj7
+
+  d2:m7 g2:7 c2:maj7 a2:7 d2:m7 g2:7 c1:maj7
+  fs2:m7 b2:7 e1:maj7 e2:m7 a2:7 d2:maj7 fs4:m7 f4:m7
+
+  e2:m7 a2:7 e2:m7 a2:7 fs:m7 b2:7 fs2:m7 b2:7
+  e2:m7 a2:7 fs2:m7.5- b2:7 e2:m7 a2:7 d1:maj7
 }
 
 melody = \relative c'' {
