@@ -2,14 +2,6 @@
 
 \include "../shared/common.ly"
 
-acc = #acciaccatura
-
-phraseA = { c8 b16 a16( a8) g8 a4 c4 }
-phraseB = { c8 b16 a16( a8) g8 a2 }
-
-phraseC = { e8 e8( e8) e8 f8 f8( f8) g8 }
-phraseD = { e8 e8( e8) e8 e8 e8( e8) e8 }
-
 \header {
   title    = "Where Have You Been"
   composer = "Rihanna"
@@ -22,15 +14,12 @@ melody = \relative c'' {
   \time 4/4
   %\tempo 4 = 64
 
-  \phraseA |
-  \phraseB |
-  \phraseA |
-  \phraseB | \break
-
-  \phraseA |
-  \phraseB |
-  \phraseB |
-  \phraseB \bar "||" \break
+  \repeat volta 3 {
+    c8 b16 a16( a8) g8 a4 c4 |
+    \mark \markup {"3x"}
+    c8 b16 a16( a8) g8 a2 |
+  }
+  \repeat percent 2 { c8 b16 a16( a8) g8 a2 | } \bar "||" \break
 
   r1 |
   d8 e8 f8 f8( f8) e8( e4) |
@@ -62,15 +51,12 @@ melody = \relative c'' {
   f8 e8 r8 e8 f8 e8 r8 e8 |
   f8 e8 r8 e8 f8 e8 r4 \bar "||" \break
 
-  \phraseC |
-  \phraseD |
-  \phraseC |
-  \phraseD | \break
-
-  \phraseC |
-  \phraseD |
-  \phraseC |
-  e4 r4 r2 \bar "||" \break
+  \repeat volta 4 { e8 e8( e8) e8 f8 f8( f8) g8 }
+  \alternative {
+    { e8 e8( e8) e8 e8 e8( e8) e8 | }
+    { e4 r4 r2 | }
+  }
+  \bar "||" \break
 
   R1*8 \bar "||" \break
 }
