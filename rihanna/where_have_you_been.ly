@@ -14,7 +14,7 @@ melody = \relative c'' {
   \clef treble
   \key a \minor
   \time 4/4
-  %\tempo 4 = 64
+  \tempo 4 = 124
 
   \repeat volta 3 {
     c8 b16 a16( a8) g8 a4 c4 | \noBreak
@@ -29,7 +29,7 @@ melody = \relative c'' {
   r2 r4 r8 d8 |
   d8 e8 f8 f8( f8) e8( e8) c8( | \break
 
-  a2) r4 a8 a8 |
+  a2) r4 c8 c8 |
   d8 e8 f8 f8( f4) e4 |
   r1 |
   e8 f8 e8 e8( e8) c8( c8) g'8( | \break
@@ -78,7 +78,7 @@ melody = \relative c'' {
   r2 r4 r8 d8 |
   d8 e8 f8 f8( f8) e8( e8) c8( | \break
 
-  a2) r4 a8 a8 |
+  a2) r4 c8 c8 |
   d8 e8 f8 f8( f4) e4 |
   r1 |
   e8 f8 e8 e8( e8) c8( c8) g'8( | \break
@@ -115,7 +115,36 @@ melody = \relative c'' {
   a8 a8( a8) a8 b8 b8( b8) c8
   a8 a8( a8) a8 a8 a8( a8) a8 \break
   
-  R1*8 \break
+  R1*7 |
+  r2 r4 r8 g8 | \break
+
+  a4 r2 r8 g8 |
+  a8 a8( a8) a8( a8) g8( g8) a8( |
+  a8) g8( g8) e8( e2) |
+  r2 e8 e16 d16 c8 e8 | \break
+
+  f8 e8( e4)( e2) |
+  r2 e8 d8 c8 e8 |
+  f8 e8( e2) c8 e8( |
+  e8) d8 e8 d8 e8 d8 c8 a8( | \break
+
+  a1) |
+  r2 d2 |
+  e4 d16 e16 d16 c16 a2 |
+  r2 d4( d8) e8 | \break
+
+  f8 f8( f8) f16 e16 d2 |
+  b2 r8. c16 b8 a16 b16( |
+  b2) r8. c16 b8 a8( |
+  a2) r2 | \bar "||" \break
+
+  \repeat volta 3 {
+    c8 b16 a16( a8) g8 a4 c4
+    \phraseA |
+    \mark \markup {"3x"}
+  }
+  \phraseA
+  \phraseA \bar "|."
 }
 
 \score {
