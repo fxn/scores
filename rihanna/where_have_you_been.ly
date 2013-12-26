@@ -115,6 +115,7 @@ melody = \relative c'' {
   a8 a8 ~ a8 a8 b8 b8 ~ b8 c8
   a8 a8 ~ a8 a8 a8 a8 ~ a8 a8 \break
   
+  \once \override MultiMeasureRest #'minimum-length = #69
   R1*7 |
   r2 r4 r8 g8 | \break
 
