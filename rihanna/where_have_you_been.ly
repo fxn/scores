@@ -25,14 +25,14 @@ melody = \relative c'' {
   \phraseA | \bar "||" \break
 
   r1 |
-  d8 e8 f8 f8 ~ f8 e8 ~ e4 |
+  d8 e8 f8 f8 ~ f8( e8) ~ e4 |
   r2 r4 r8 d8 |
   d8 e8 f8 f8 ~ f8 e8 ~ e8 c8( | \break
 
   a2) r4 c8 c8 |
   d8 e8 f8 f8 ~ f4 e4 |
   r1 |
-  e8 f8 e8 e8 ~ e8 c8 ~ c8 g'8( | \break
+  e8 f8( e8) e8 ~ e8 c8 ~ c8 g'8( | \break
 
   a1) ~ |
   a1 |
@@ -74,14 +74,14 @@ melody = \relative c'' {
   c8 b16 a16 ~ a8 g8 a4 d8 e8 ~ | \bar "||" \break
 
   e8 d8 r4 r2 |
-  d8 e8 f8 f8 ~ f8 e8 ~ e4 |
+  d8 e8 f8 f8 ~ f8( e8) ~ e4 |
   r2 r4 r8 d8 |
   d8 e8 f8 f8 ~ f8 e8 ~ e8 c8( | \break
 
   a2) r4 c8 c8 |
   d8 e8 f8 f8 ~ f4 e4 |
   r1 |
-  e8 f8 e8 e8 ~ e8 c8 ~ c8 g'8( | \break
+  e8 f8( e8) e8 ~ e8 c8 ~ c8 g'8( | \break
 
   a1) ~ |
   a1 |
@@ -117,26 +117,26 @@ melody = \relative c'' {
   
   \once \override MultiMeasureRest #'minimum-length = #69
   R1*7 |
-  r2 r4 r8 g8 | \break
+  r2 r4 r8 g8( | \break
 
-  a4 r2 r8 g8 |
-  a8 a8 ~ a8 a8 ~ a8 g8 ~ g8 a8 ~ |
+  a4) r2 r8 g8( |
+  a8) a8 ~ a8 a8 ~ a8 g8 ~ g8 a8 ~ |
   a8 g8 ~ g8 e8 ~ e2 |
-  r2 e8 e16 d16 c8 e8 | \break
+  r2 e8( e16 d16) c8 e8( | \break
 
-  f8 e8 ~ e4 ~ e2 |
-  r2 e8 d8 c8 e8 |
-  f8 e8 ~ e2 c8 e8 ~ |
+  f8 e8) ~ e4 ~ e2 |
+  r2 e8( d8) c8 e8( |
+  f8 e8) ~ e2 c8 e8 ~ |
   e8 d8 e8 d8 e8 d8 c8 c8 | \break
 
   a1 |
   r2 d2 |
-  e4 d16 e16 d16 c16 a2 |
+  e4 d16( e16 d16 c16) a2 |
   r2 c4 ~ c8 d8 | \break
 
-  e8 e8 ~ e8 e16 d16 c2 |
-  a2 r8. c16 b8 a16 b16 ~ |
-  b2 r8. c16 b8 a8 ~ |
+  e8 e8 ~ e8 e16( d16 c2) |
+  a2 r8. c16( b8) a16( b16) ~ |
+  b2 r8. c16( b8) a8 ~ |
   a2 r2 | \bar "||" \break
 
   \repeat volta 3 {
