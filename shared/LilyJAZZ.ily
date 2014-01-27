@@ -425,8 +425,6 @@ jazzOff = {
 
 
 % Staff copied from the mailing list.
-
-\override Staff.Dots #'X-extent = \makeUnpurePureContainer
 jazzTempoMarkup = #(define-scheme-function (parser location name music bpm) (string? ly:music? string?)
   #{ \markup {
        \line {
