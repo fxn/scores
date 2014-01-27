@@ -16,7 +16,7 @@ melody = \relative c'' {
   \clef treble
   \key c \major
   \time 4/4
-  % \tempo 4 = TODO
+  \mark\jazzTempoMarkup #"Latin" c4 #"144"
 
   \partial 4. a8 ~ a8 c16 e16 |
   g8. e16 f8 af,8 ~ af8 e'8 ~ e8 d8 |
@@ -65,7 +65,7 @@ melody = \relative c'' {
   g'4-. g2 ~ g8 e8 | \break
   
   f8 g8 e2 c8 a8 |
-  c2 r4 c16 fs16 f16 e16 |
+  c2 r4 g16 fs16 f16 e16 |
   \partial 4 d4-. \bar "|."
 }
 
