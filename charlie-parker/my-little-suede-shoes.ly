@@ -1,15 +1,18 @@
 \version "2.18.0"
 
+\include "../shared/LilyJAZZ.ily"
 \include "../shared/common.ly"
 
 \header {
-  title    = "My Little Suede Shoes"
-  subtitle = "(Solo)"
-  composer = "Charlie Parker"
-  tagline  = "(Approximate transcription in E♭ by Xavier Noria)"
+  title    = \markup { \fontsize #3 \override #'(font-name . "LilyJAZZ Text") "My Little Suede Shoes" }
+  subtitle = \markup { \fontsize #3 \override #'(font-name . "LilyJAZZ Text") "(Solo)" }
+  composer = \markup { \fontsize #3 \override #'(font-name . "LilyJAZZ Text") "Charlie Parker" }
+  tagline  = \markup { \fontsize #3 \override #'(font-name . "LilyJAZZ Text") "(Approximate transcription in E♭ by Xavier Noria)" }
 }
 
 melody = \relative c'' {
+  \jazzOn
+
   \clef treble
   \key c \major
   \time 4/4
