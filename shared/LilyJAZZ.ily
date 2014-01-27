@@ -424,4 +424,35 @@ jazzOff = {
 }
 
 
+% Staff copied from the mailing list.
 
+\override Staff.Dots #'X-extent = \makeUnpurePureContainer
+jazzTempoMarkup = #(define-scheme-function (parser location name music bpm) (string? ly:music? string?)
+  #{ \markup {
+       \line {
+         #name
+         "("
+         \score {
+           \new Staff \with {
+             fontSize = #-4
+             \override StaffSymbol #'staff-space = #(magstep -4)
+             \override StaffSymbol #'line-count = #0
+             \override VerticalAxisGroup #'Y-extent = #'(0 . 0)
+           }
+           \relative c'' { \jazzOn \stemUp $music }
+           \layout {
+             ragged-right= ##t
+             indent = 0
+             \context {
+               \Staff
+               \remove "Clef_engraver"
+               \remove "Time_signature_engraver"
+             }
+           }
+         }
+         "="
+         #bpm
+         ")"
+       }
+     }
+   #})
