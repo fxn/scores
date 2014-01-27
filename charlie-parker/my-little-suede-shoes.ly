@@ -19,7 +19,7 @@ melody = \relative c'' {
   \mark\jazzTempoMarkup #"Latin" c4 #"144"
 
   \partial 4. a8 ~ a8 c16 e16 |
-  g8. e16 f8 af,8 ~ af8 e'8 ~ e8 d8 |
+  g8 e8 f8 af,8 ~ af8 e'8 ~ e8 d8 |
   b4 ~ b8 d8 r4 r8 c8 | \break
   
   \times 2/3 { a8 c8 e8 } g8 e8 f8 bf8 af16 bf16 af16 fs16 |
@@ -40,7 +40,7 @@ melody = \relative c'' {
   a16 gs \times 2/3 { a c e } d4-. r2 |
   r16 fs g a bf a bf a g f e d cs e, g bf | \break
   
-  a16 gs a c e d gs, f d'4-. ds16 b g f |
+  a16 gs a c e d g, f d'4-. ds16 b g f |
   r4 r8 g'16 f e d c b bf gs \times 2/3 { a c e } | \break
   
   g16 e16 f32 a32 c32 e32 d4-. r2 |
