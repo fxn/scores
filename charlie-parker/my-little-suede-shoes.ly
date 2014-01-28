@@ -29,7 +29,7 @@ melody = \relative c'' {
   g16 af16 g16 f16 e8 d8 cs8 e,8 g8 bf8 | \break
   
   a8 g8 \times 2/3 { a8 c8 e8 } d8 g,8 b8 c8 ~ |
-  c4 r8 a'8 ~ a4-. c8 a8 | \break
+  c4 r8 \scoop a'8 ~ a4-. c8 a8 | \break
   
   g8 f8 ~ f2 r4 |
   r8 c8 ds16 e f fs g f e d cs e, g bf | \break
