@@ -29,3 +29,14 @@
   %  \override BarNumber #'break-visibility = #'#(#f #t #t)
   %}
 }
+
+#(define (scoop-stencil grob)
+  (ly:stencil-add
+    (ly:note-head::print grob)
+    (grob-interpret-markup grob
+      (markup #:with-dimensions '(0 . 0) '(0 . 0)
+              #:translate '(-0.2 . -0.5)
+              #:path 0.25 '((moveto 0 0)
+                            (curveto 0 -1 -1 -1.5 -1.5 -1.5))))))
+
+scoop = \once \override NoteHead #'stencil = #scoop-stencil
