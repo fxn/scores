@@ -10,6 +10,31 @@
   tagline  = \markup { \fontsize #3 \override #'(font-name . "LilyJAZZ Text") "(Approximate transcription in E♭ by Xavier Noria)" }
 }
 
+harmony = \new ChordNames \with {
+  \override ChordName #'font-name = #"lilyjazzchord"
+} \chordmode {
+
+  a4.:7 d2:m7 g2:7 e2:m7 a2:7
+  d2:m7 g2:7 c2:maj7 a2:7.9+
+  d2:m7 g2:7 e2:m7 a2:7
+  d2:m7 g2:7 c2:maj7 a2:7 
+  
+  d2:m7 g2:7 e2:m7 a2:7
+  d2:m7 g2:7 c2:maj7 a2:7.9+
+  d2:m7 g2:7 e2:m7 a2:7
+  d2:m7 g2:7 c2:maj7 c2:7 
+  
+  f1:maj7 e2:m7.5- a2:7
+  d2:m7 g2:7 c1:maj7
+  f1:maj7 e2:m7 a2:7
+  d2:m7 g2:7 c2:maj7 g2:7
+  
+  d2:m7 g2:7 e2:m7 a2:7
+  d2:m7 g2:7 c2:maj7 a2:7.9+
+  d2:m7 g2:7 e2:m7 a2:7
+  d2:m7 g2:7 c2:maj7 a2:7 d4:m7
+}
+
 melody = \relative c'' {
   \jazzOn
 
@@ -76,5 +101,8 @@ melody = \relative c'' {
 }
 
 \score {
-  { \melody }
+  <<
+    \harmony
+    \melody
+  >>
 }
