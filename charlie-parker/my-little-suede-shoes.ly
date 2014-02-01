@@ -18,7 +18,10 @@ melody = \relative c'' {
   \time 4/4
   \mark\jazzTempoMarkup #"Latin" c4 #"144"
 
-  \partial 4. a8 ~ a8 c16 e16 |
+  \set Score.markFormatter = #format-mark-box-alphabet
+
+  \partial 4. a8 ~ a8 c16 e16 \bar "||" |
+  \mark \default
   g8 e8 f8 af,8 ~ af8 e'8 ~ e8 d8 |
   b4 ~ b8 d8 r4 r8 c8 | \break
   
@@ -26,8 +29,9 @@ melody = \relative c'' {
   g8 e8 ~ e4 r2 | \break
   
   r8 cs8 \times 2/3 { d8( f8) a8-- } c8-- b8 a8 gs8 |
-  g16 af16 g16 f16 e8 d8 cs8 e,8 g8 bf8 | \break
+  g16 af16 g16 f16 e8 d8 cs8 e,8 g8 bf8 \bar "||" | \break
   
+  \mark #1
   a8 g8 \times 2/3 { a8 c8 e8 } d8 g,8 b8 c8 ~ |
   c4 r8 \scoop a'8 ~ a4-. c8 a8 | \break
   
@@ -41,8 +45,9 @@ melody = \relative c'' {
   r16 fs g a bf a bf a g f e d cs e, g bf | \break
   
   a16 gs a c e d g, f d'4-. ds16 b g f |
-  r4 r8 g'16 f e d c b bf gs \times 2/3 { a c e } | \break
+  r4 r8 g'16 f e d c b bf gs \times 2/3 { a c e } \bar "||" | \break
   
+  \mark \default
   g16 e16 f32 a32 c32 e32 d4-. r2 |
   r8 g,8 b8 a8 ~ a8 gs8 g8 fs8 | \break
   
@@ -53,8 +58,9 @@ melody = \relative c'' {
   b8 a8 b8 a8 g16 a16 g16 fs16 f8 e8 | \break
   
   d4 r8 a8 ~ a8 c8 e8 d8 |
-  d4 c8 as8 b8 g'8 e8 a,8 | \break
+  d4 c8 as8 b8 g'8 e8 a,8 \bar "||" | \break
   
+  \mark #1
   d4-. a8 g8 gs e'8 ~ e4 |
   b2 r2 | \break
   
@@ -65,8 +71,8 @@ melody = \relative c'' {
   g'4-. g2 ~ g8 e8 | \break
   
   f8 g8 e2 c8 a8 |
-  c2 r4 g16 fs16 f16 e16 |
-  \partial 4 d4-. \bar "|."
+  c2 r4 g16 fs16 f16 e16 \bar "||" |
+  d4-. r4 r2 \bar "|."
 }
 
 \score {
