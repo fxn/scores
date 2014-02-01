@@ -30,6 +30,7 @@
   %}
 }
 
+% Thanks to Nathan Ho for this code. \scoop is a fixed \bendBefore.
 #(define (scoop-stencil grob)
   (ly:stencil-add
     (ly:note-head::print grob)
