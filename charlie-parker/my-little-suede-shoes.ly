@@ -44,7 +44,7 @@ melody = \relative c'' {
   a16 gs \times 2/3 { a c e } d4-. r2 |
   r16 fs g a bf a bf a g f e d cs e, g bf | \break
   
-  a16 gs a c e d g, f d'4-. ds16 b g f |
+  a16 gs a c e d a f d'4-. ds16 b g f |
   r4 r8 g'16 f e d c b bf gs \times 2/3 { a c e } \bar "||" | \break
   
   \mark \default
@@ -71,7 +71,7 @@ melody = \relative c'' {
   g'4-. g2 ~ g8 e8 | \break
   
   f8 g8 e2 c8 a8 |
-  c2 r4 g16 fs16 f16 e16 \bar "||" |
+  c2 r4 g'16 fs16 f16 e16 \bar "||" |
   d4-. r4 r2 \bar "|."
 }
 
