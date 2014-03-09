@@ -8,11 +8,15 @@
   tagline  = "(Approximate transcription in E♭ by Xavier Noria.)"
 }
 
-melody = \relative c''' {
+harmony = \chordmode {
+  R1*4 | a1*32:7
+}
+
+solo = \relative c''' {
   \clef treble
   \time 2/2
 
-  a8 g8 r8 e8 \times 2/3 { ef8 d8 c8 } a8-> r8 \bar "||"
+  r1 | r1 | r1 | a8 g8 r8 e8 \times 2/3 { ef8 d8 c8 } a8-> r8 \bar "||" \break
 
   d4 d8 d8 \acciaccatura c8 cs8 d8-> r4 |
   r8 \acciaccatura c8 cs8 e8 fs8 g8-. g8-. fs4 |
@@ -65,5 +69,8 @@ melody = \relative c''' {
 }
 
 \score {
-  \melody
+  <<
+    \new ChordNames { \harmony }
+    \solo
+  >>
 }
