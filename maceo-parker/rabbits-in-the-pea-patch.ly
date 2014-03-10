@@ -58,8 +58,8 @@ solo = \relative c''' {
   a4 g8 a8 ~a8 g'8 r4 |
   e,8 g8 a8 a8 a8 c8 r4 | \break
 
-  a4 a'4 r8 a,8 ~ a8 cs8 ~ |
-  cs d8 r4 d8 e8 r8 c8 ~ |
+  a4 a'4 r8 a,8 ~ a8 c8 ~ |
+  c8 d8 r4 ds8 e8 r8 c8 ~ |
   c8 a4 g8 a4-> r8 g8 ~ |
   g8 c,8
   \override NoteHead.style = #'cross c8 \revert NoteHead.style
