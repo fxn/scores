@@ -9,7 +9,7 @@
 }
 
 harmony = \chordmode {
-  R1*4 | a1*32:m6
+  R1*4 | a1*32:7.9+
   R1*8 | b1*32:m6
 }
 
@@ -34,10 +34,10 @@ solo = \relative c''' {
   a4 c8 b8 a8 fs8 r4 |
   g4 g8 fs8 e8 fs8-^ r8 a8 | \break
 
-  r4 r8 g8 r8 g'8 e,-^ fs8 |
+  r4 r8 g8 r8 g'8 e,-^[ fs8] |
   \times 2/3 { a8 c8 \parenthesize c8 } c4 r2 |
   d8 c8 a4 g8 a4 a8 |
-  r4 r8 c8 c8 c8 \acciaccatura a8 b4 | \break
+  r4 r8 c8 c8 c8 \acciaccatura as8 b4 | \break
 
   a4 g8 e8 r8 a,8 c8 d8 |
   ds8 e8 ds8 e8 \times 2/3 { ef8 d8 c8 } a8-^ r8 |
@@ -76,13 +76,40 @@ solo = \relative c''' {
   
   a4 gs8 fs8 r8 b8-^ r8 a8 |
   \acciaccatura e8 f8 e8 d8 b8 a4 r8 b8 ~ |
-  b8 \xNote { d8 cs8 d4 d8 d8 d8 } |
-  \xNote { cs8 d8 d4 } r8 \acciaccatura d8 e8-^ r4 | \break
+  b8 \xNote { d8 cs8 d8 ~ d8 d8 d8 d8 } |
+  \xNote { cs8 d8 d4 } r8 \acciaccatura ds8 e8-^ r4 | \break
   
   d4 r8 b8 a8 b8 d4 |
   r8 d8-^ r4 d4-> e8 f8 |
-  fs8 a8 ~ a4 a8-^ r4 e8 |
-  r8 f8 fs8 fs8 a4 a4 |
+  fs8 a8 ~ a4 a8-^ r8 r8 e8 |
+  r8 f8 fs8[ fs8] a4 a4 | \break
+  
+  r4 a8 gs8 fs4 a8 b8 ~ |
+  b8 d8 cs8 b8-^ r4 d8 cs8 |
+  b4 r8 gs8 a8[ gs8] fs8-^ r8 |
+  gs8-^ r8 r8 a8-^ r4 f8 gs8 | \break
+  
+  f8 fs8 d8 b8 e8 d8 b8 b8 |
+  a8 f8 fs8 a8 b8 d8 e4 |
+  fs8 fs8 r4 r8 a8-^ r8 gs16 g16 |
+  fs8 fs8 r4 a4 b4 | \break
+  
+  \acciaccatura cs8 d4 b2 a4 |
+  b8 a8-^ r4 r8 \acciaccatura cs8 d8 r8 \acciaccatura cs8 d8 |
+  r4 b2 a4 |
+  b8 a8\bendAfter #-2 r4 r8 d8 cs8[ b8] ~ | \break
+  
+  b4 a8 f8 fs8 d4 d8 |
+  e8[ d8] r4 r8 e8 d8[ b8] |
+  a8 b8 d8 e8 f8 fs8 f8 fs8 |
+  gs8 a8 gs8 a8 fs8 b8 b8 d8 | \break
+  
+  b4 r4 \acciaccatura ds8 e4 r4 |
+  d4 d8 cs8 b4 cs8 d8 |
+  b4 r8 e8-^ r8 d8-^ r8 b8 ~ |
+  b8[ a8] b8-^ r8 r4 b4 | \break
+  
+  
 }
 
 \score {
