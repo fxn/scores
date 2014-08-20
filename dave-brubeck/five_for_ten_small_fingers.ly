@@ -26,9 +26,10 @@ melody = \relative c'' {
   b4. c8 b8( a8) g4 f4 | e2 g4 c2 | b4. c8 b8 a8 g4\glissando b4\glissando fs2. r2 | \break
   a4. bf8 a8 g8 f4 ef4 | d2 f4 a4. f8 | e2 gs4 b4. b8 | f2 af4 df2 | \break
 
-  cs,2 d8 e8 d4 cs4 | a2 b4 cs2 | cs2 d8 e8 d4 d4 |
+  cs,2 d8 e8 d4 cs4 | a2 b4 cs2 | cs2 d8 e8 d4 d4 | \break
 
-  b'8^"Ad Lib." fs8 b8 fs8 e8 cs8 e8 cs8 b8 fs8 b8 fs8 ~ fs1\fermata \bar "|."
+  \cadenzaOn
+  b'8[^"Ad Lib." fs8 b8 fs8] e8[ cs8 e8 cs8] b8[ fs8 b8 fs8] ~ fs1\fermata \bar "|."
 }
 
 \score {
