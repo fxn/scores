@@ -7,7 +7,7 @@
   title      = \markup { \fontsize #3 \override #'(font-name . "LilyJAZZ Text") "Five For Ten Small Fingers" }
   composer   = \markup { \fontsize #3 \override #'(font-name . "LilyJAZZ Text") "Dave Brubeck" }
   instrument = \markup { \fontsize #3 \override #'(font-name . "LilyJAZZ Text") "Alto Saxophone" }
-  tagline    = \markup { \fontsize #3 \override #'(font-name . "LilyJAZZ Text") "(First bits are played with vibrato)" }
+  tagline    = \markup { \fontsize #3 \override #'(font-name . "LilyJAZZ Text") "(First beats are played with vibrato)" }
 }
 
 melody = \relative c'' {
