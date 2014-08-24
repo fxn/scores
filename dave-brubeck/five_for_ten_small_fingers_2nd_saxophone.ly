@@ -30,7 +30,7 @@ melody = \relative c'' {
   a,2 gs8 fs8 gs4 a4 | fs2 gs4 f2 | a2 f8 g8 f4 f4 | \break
 
   \cadenzaOn
-  e'8[^"Ad Lib." cs8 e8 cs8] b8[ fs8 b8 fs8] e8[ cs8 fs8 e8] ~ e1\fermata \bar "|."
+  e'8[^"Ad Lib." cs8 e8 cs8] b8[ fs8 b8 fs8] e'8[ cs8 fs8 e8] ~ e1\fermata \bar "|."
 }
 
 \score {
