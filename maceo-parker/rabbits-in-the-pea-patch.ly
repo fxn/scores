@@ -109,7 +109,12 @@ solo = \relative c''' {
   b4 r8 e8-^ r8 d8-^ r8 b8 ~ |
   b8[ a8] b8-^ r8 r4 b4 | \break
   
+  a4. gs8 a2 |
+  a4. gs8 a8-^ r8 r8 gs8 |
+  a8 a8 gs4 fs8 d8 r8 e8-^ |
+  r4. f8 fs8 d8 b8 e8 |
   
+  d8
 }
 
 \score {
