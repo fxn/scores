@@ -7,7 +7,7 @@
   subtitle = "(As played by Dexter Gordon)"
   composer = "Thelonious Monk"
   instrument = "Alto Saxophone"
-  tagline  = "(For E♭ instruments.)"
+  tagline  = ""
 }
 
 melody = \relative c'' {
@@ -45,8 +45,8 @@ melody = \relative c'' {
   \mark \default
   r4 \acciaccatura b8 df4 ef4 ~ ef8. bf16 |
   \times 2/3 { af8 af8 af8 ~ } af8 gf16 af16 f8 df'8 r4 | \break
-  r8 \acciaccatura gf,16 af8 f16 af16 ef16 af16 df,8 df8 ~ df8. \acciaccatura f32 gf16 |
-  \times 2/3 { e8 e8 e8 ~ } e8 e16 ef16 d16 fs16 df16 c16 b4 | \break
+  r8 \acciaccatura gf,16 \[af8 f16 af16 ef16 af16 df,8\] df8 ~ df8. \acciaccatura f32 gf16 |
+  \times 2/3 { e8 e8 e8 ~ } e8 e16 ef16 d16 gf16 df16 c16 b4 | \break
 
   r4 \times 2/3 { r8 \acciaccatura d16 e8 e8 } a4 b16 a16 \acciaccatura g32 gs16 b16 |
   e,8 e4. r4 \acciaccatura e8 f4 | \break
@@ -56,7 +56,7 @@ melody = \relative c'' {
   r4 \acciaccatura d8 e32( f16.) cs16 e16 \times 2/3 { d8 d8 d8 ~ } d16 c b a |
   g8 g8 r8 g32 a e f g16 a g4. | \break
   r8 fs16 g b d-- \times 2/3 {fs g e } \times 4/6 { d e cs b cs a } \times 4/6 { fs e d cs d e } |
-  \acciaccatura e16 f8 e16 cs d e fs a e d8. r4 | \break
+  \acciaccatura e16 fs8 e16 cs d e fs a e d8. r4 | \break
 
   r8 c'8 \glissando a'4 g8 g4 df16 ef16 |
   c8 c4. \times 2/3 { r8 c8 c8 } \times 2/3 { c8 d8 a16 bf } | \break
@@ -72,17 +72,32 @@ melody = \relative c'' {
   r8 bf8 \times 4/5 { c16 cs d e f } g8  a32 as b c32 gs16 c16 r8 |
   r8 gs8 b16 gs16 a16 b16 c16 d16 \times 2/3 { ef16 f16 d16 ~ }  \times 2/3 { d8 c16 d16 b8 } | \break
   r8. c16 \times 2/3 { bf16 d16 c8 \times 2/3 { f16 e16 ef16 } } d8 a'16 g16 \times 2/3 { fs8 g4 } |
-  r8 gs16 b16 fs8 fs16 gs16 \times 2/3 { ff8 ef16 ff16 df8 ~ } df4 | \break 
+  r8 gs16 b16 fs8 fs16 gs16 \times 2/3 { f8 ef16 f16 df8 ~ } df4 | \break 
 
   \mark #1 % 2:47
   r8. e16 f16 e16 f16 e16 \times 2/3 { f8 d d } d8. c16 |
   \times 2/3 { b8 d d } d8. d16 \times 2/3 { d16 e16 b8. c16 } a16 a16 r8 | \break
   r4 fs'16 g16 ds16 fs16 \times 2/3 { e16 fs16 d16 e16 cs8 ~ } cs8 b16 cs16 |
   a4-- fs16 e16 d16 cs16 \times 2/3 { b8 a8 a8 } a4 | \break
-  
+
   r8 g16 g'16 \times 2/3 { d4 d8 } \times 2/3 { d8 df df ~ } df4 | 
   r8 c16 a16 d b e c  \times 4/5 { fs d g e a } fs8 \acciaccatura as16 b8 | \break
-  % r8 \times 2/3 { a16 as b } c a bf c d   
+  r8 \times 2/3 { a16 bf b } c a bf c \times 2/3  { d8 e8 a16 g64 f d bf } a8 g8
+  r8 bf16 cf16 bf8. af16 gf16 ff8. df'8 df8 \pageBreak
+
+  \mark #1
+  r4 f8 \times 2/3 { e16 ef16 d16 } df8 df8 df8. bf16 |
+  af16 gf16 f16 af16 ef16 af16 df,8 ~ df4 \times 2/3 { r8 e16 d16 a'16 e16 } | \break
+  d16 bf16 df16 df16 ~ df4 r8 f16 fs16 cs'16 cs8. |
+  \times 2/3 { r8 b8 cs8 } d16 as16 cs16 b16 \times 2/3 { fs8 as8 gs8 } e'4 | \break
+
+  r4 \acciaccatura d8 e8. e16 \times 2/3 { e16 e16 \acciaccatura g8 a8. e16 } d16 c16 d16 c16 |
+  r8 a8 \times 2/3 { b16 c16 d8 b16 c16 } \times 4/5 { a16 e16 d16 c16 d16 ~ } d4 \break
+  \times 2/3 { d'16 ds16 c8 c8 } c8. c16 \times 2/3 { c8 d8 c8 ~ } c4 |
+  r8 g16 gs16 e'8 e8 r8 a,16 as16 \glissando f'8 f8 \break
+
+  r8 b,16 c16 \times 2/3 { r8 c'8 a8 \glissando } d,16 c16 b8 a16 gs8. |
+  r8 g8 a16 e16 f16 g16 \times 2/3 { a8 b16 c16 a16 b16 } \times 2/3 { g16 e16 d16 c16 d16 c16 } \break
 }
 
 \score { \melody }
