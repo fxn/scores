@@ -83,7 +83,7 @@ melody = \relative c'' {
   r8 g16 g'16 \times 2/3 { d4 d8 } \times 2/3 { d8 df df ~ } df4 | 
   r8 c16 a16 d b e c  \times 4/5 { fs d g e a } fs8 \acciaccatura as16 b8 | \break
   r8 \times 2/3 { a16 bf b } c a bf c \times 2/3  { d8 e8 a16 g64 f d bf } a8 g8
-  r8 bf16 cf16 bf8. af16 gf16 ff8. df'8 df8 \pageBreak
+  r8 bf16 cf16 bf8. af16 gf16 ff8. df'8 df8 | \pageBreak
 
   \mark #1
   r4 f8 \times 2/3 { e16 ef16 d16 } df8 df8 df8 bf8 |
@@ -92,12 +92,19 @@ melody = \relative c'' {
   \times 2/3 { r8 b8 cs8 } d16-> as16 cs16 b16-> \times 2/3 { fs8 a8 gs8 } e'4 | \break
 
   r4 \acciaccatura d8 e8 e8 \times 2/3 { e16 e16 \acciaccatura g8 a8. e16 } d16 c16 d16 c16 |
-  r8 a16 b16 c16 d16 b16 c16 a16 e16 d16 c16 d4 \break
+  r8 a16 b16 c16 d16 b16 c16 a16 e16 d16 c16 d4 | \break
   \times 2/3 { d'16 ds16 c8 c8 } c8. c16 \times 2/3 { c16 d16 c4 ~ } c4 |
-  r8 \scoop gs8 e'8 e8 r8 a,16 as16 \glissando f'8 f8 \break
+  r8 \scoop gs8 e'8 e8 r8 a,16 as16 \glissando f'8 f8 | \break
 
-  r8 b,16 c16 \times 2/3 { r8 c'8 a8 \glissando } d,16 c16 b16 a16 gs4 |
-  r8 g8 a16 e16 f16 g16 \times 2/3 { a8 b16 c16 a16 b16 } g16 e16 d16 c16 \break
+  r8 b,16 c16 \times 2/3 { r8 c'8 a32( gs32 f32 e32 } \times 2/3 { d8) c8 b8 } a8 gs8 |
+  r8 g8 a16 e16 f16 g16 \times 4/5 { a16 b16 c16 a16 b16 } \times 4/5 { g16 e16 d16 c16 d16 } | \break
+  b4 as16 b16 fs'16 ds16 e8 \times 2/3 { a16 fs16 g16( } \times 2/3 { g8) a8-. as8-. } |
+  \acciaccatura e'8 f8 d8 r8 \times 2/3 { d16 cs16 b16 } a16 fs16 e16 d16 e16 e16 r8 | \break
+  
+  \times 2/3 { r8 c'8 bf8 } \times 2/3 { c8 c8 bf8 } c8 bf8 g4 |
+  \times 2/3 { r8 \scoop d'8 c8 } \times 2/3 { d8 d8 c8 } d8 c8 a8 a8 | \break
+  r8 \acciaccatura e'8 f8 \acciaccatura e8 f8 f8 d8 bf8 a8 g8 |
+  r8 \acciaccatura es'8 fs8 \acciaccatura es8 fs8 fs8 ds8 b8 as8 gs8 | \break
 }
 
 \score { \melody }
