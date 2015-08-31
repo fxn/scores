@@ -2,11 +2,19 @@
 
 \include "../shared/common.ly"
 
+\paper {
+  system-system-spacing.basic-distance = #16
+}
+
 \header {
   title    = "Señorita bonita"
   composer = "Marcel·lí Bayer"
   instrument = "Alto Saxophone"
   tagline  = ""
+}
+
+\markup {
+  \vspace #2
 }
 
 melody = \relative c'' {
@@ -23,8 +31,7 @@ melody = \relative c'' {
   fs,,8 b ds b' fs'2 \fermata | ef,,8 bf' ef bf' f'2 \fermata | \break
   gs,,8 ds' as' ds gs2 \fermata | fs,,8 ds' as' ds gs2 \fermata | \break
   e,,8 b' gs' ds b'2 \fermata | e,,8 b' g' d b'2 \fermata | \break
-  b,8 cs ds fs b2 \fermata | \bar "|."
-  
+  b,8 cs ds fs b2 \fermata | \bar "|." 
 }
 
 \score { \melody }
