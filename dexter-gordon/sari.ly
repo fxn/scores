@@ -14,7 +14,7 @@ melody = \relative c'' {
   \clef treble
   \key c \major
   \time 4/4
-  \tempo 4 = 46
+  \tempo 4 = 56
 
   \set Score.markFormatter = #format-mark-box-alphabet
   
